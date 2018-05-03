@@ -6,18 +6,18 @@ body {
     font-size: 16px; 
     line-height: 32px;
     font-family:  Helvetica, Avenir, sans-serif;
-    color: #333399;
+    color: darkviolet;
 }
 
 h1 {
     font-size: 3.5rem  (rem is a unit of measure);
-    color: #660066;
+    color: violet;
 }
 
 h2 {
     font-size: 2.5rem;
     text-align: center;
-    border-bottom: 1px solid #bbb;
+    border-bottom: 1px solid black;
 }
 
 header, main, footer {
@@ -27,8 +27,8 @@ header, main, footer {
 }
 
 header, footer, footer a {
-    text-align: Left;
-    background-color: shadow;
+    text-align: center;
+    background-color:beige;
     color: whitesmoke;
 }
 
