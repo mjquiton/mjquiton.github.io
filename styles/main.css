@@ -10,26 +10,26 @@ body {
 }
 
 h1 {
-    font-size: 3.5rem  (rem is a unit of measure);
-    color: violet;
+    font-size: 4.5rem  (rem is a unit of measure);
+    color: blueviolet;
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     border-bottom: 1px solid black;
 }
 
 header, main, footer {
-    margin: 1.25rem auto;
-    padding: .5rem;
-    max-width: 320px (px = pixel is a unit of measure);
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    max-width: 420px (px = pixel is a unit of measure);
 }
 
 header, footer, footer a {
     text-align: center;
-    background-color:beige;
-    color: whitesmoke;
+    background-color:blanchedalmond;
+    color: blue;
 }
 
 header img {
