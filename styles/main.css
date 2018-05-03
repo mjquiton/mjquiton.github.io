@@ -6,29 +6,29 @@ body {
     font-size: 16px; 
     line-height: 32px;
     font-family:  Helvetica, Avenir, sans-serif;
-    color: darkviolet;
+    color: whitesmoke;
 }
 
 h1 {
     font-size: 4.5rem  (rem is a unit of measure);
-    color: blueviolet;
+    color: whitesmoke;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: rem;
     text-align: center;
     border-bottom: 1px solid black;
 }
 
 header, main, footer {
-    margin: 1.5rem auto;
+    margin: .5rem auto;
     padding: 1.5rem;
     max-width: 420px (px = pixel is a unit of measure);
 }
 
 header, footer, footer a {
     text-align: center;
-    background-color:blanchedalmond;
+    background-color:cadetblue;
     color: blue;
 }
 
