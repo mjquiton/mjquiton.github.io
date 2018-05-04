@@ -6,12 +6,12 @@ body {
     font-size: 16px; 
     line-height: 32px;
     font-family:  Helvetica, Avenir, sans-serif;
-    color: chocolate;
+    color: coral;
 }
 
 h1 {
     font-size: 4.5rem  (rem is a unit of measure);
-    color: cornflowerblue;
+    color: cadetblue;
 }
 
 h2 {
