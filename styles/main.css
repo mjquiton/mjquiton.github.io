@@ -6,12 +6,12 @@ body {
     font-size: 16px; 
     line-height: 32px;
     font-family:  Helvetica, Avenir, sans-serif;
-    color: coral;
+    color: chocolate;
 }
 
 h1 {
     font-size: 4.5rem  (rem is a unit of measure);
-    color: cadetblue;
+    color: cornflowerblue;
 }
 
 h2 {
@@ -28,7 +28,7 @@ header, main, footer {
 
 header, footer, footer a {
     text-align: center;
-    background-color:cadetblue;
+    background-color:cornflowerblue;
     color: whitesmoke;
 }
 
