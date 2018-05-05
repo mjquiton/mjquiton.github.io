@@ -17,13 +17,13 @@ h1 {
 h2 {
     font-size: rem;
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 
 header, main, footer {
     margin: .5rem auto;
-    padding: 1.5rem;
-    max-width: 420px (px = pixel is a unit of measure);
+    padding: 1.5rem auto;
+    max-width: 720px;
 }
 
 header, footer, footer a {
