@@ -23,7 +23,7 @@ h2 {
 header, main, footer {
     margin: .5rem auto;
     /* padding: 3.5rem auto; */
-    padding: 10px;
+    padding: 5px;
     max-width: 720px;
 }
 
