@@ -33,7 +33,8 @@ header, footer, footer a {
     text-align: center;
     background-color:cadetblue;
     color: whitesmoke;
-    height: 100px;
+    height: 50px;
+    vertical-align: middle;
 }
 
 header img {
