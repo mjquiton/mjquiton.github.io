@@ -1,6 +1,6 @@
 /* CIT 230 - Assignment Portal CSS Template */
 
-{ margin: 0; box-sizing: border-box; } 
+{ margin: 0; box-sizing: border-box;} 
 
 body { 
     font-size: 16px; 
@@ -34,8 +34,8 @@ header, footer, footer a {
 }
 
 header img {
-    width: ;
-    height: auto;
+    width: 200px;
+    height: 300px;
     float: right;
 }
 
