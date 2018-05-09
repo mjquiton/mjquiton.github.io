@@ -1,9 +1,8 @@
 /* CIT 230 - Assignment Portal CSS Template */
 
-{ margin: 0; box-sizing: border-box;
-
+html{ margin: 0; 
+    box-sizing: border-box;
 } 
-
 body { 
     font-size: 16px; 
     line-height: 32px;
