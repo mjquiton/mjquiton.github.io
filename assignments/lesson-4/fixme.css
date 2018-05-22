@@ -2,7 +2,7 @@
 
 body { 
     font-size: 16px;
-    font-family: 'Sansito', Ubuntu, sans-serif;
+    font-family: Sansita, Ubuntu, sans-serif;
 }
 
 h1, h2, h3 {
@@ -11,7 +11,7 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 1em;
+    font-size: 3em;
 }
 
 header {
@@ -20,7 +20,7 @@ header {
 }
 
 main {
-	min-height: 5px;
+	min-height: 0;
 }
 
 main img {
@@ -38,7 +38,7 @@ footer {
 }
 /* Class Selectors */
 
- .profile {
+.profile {
     box-shadow: .25rem .25rem .25rem #ccaabb;
     border: 1px solid #777;
 }
