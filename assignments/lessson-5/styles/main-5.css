@@ -87,11 +87,29 @@ main {
 }
 main h2 {
 	color: blueviolet;
+    font-size: 2.2rem;
 }
 main figure {
 	margin: 0 0 .2rem 2%;
 }
 main figure img {
 }
+#weathercondition {
+    font-size: 1.3rem;   
+}
+#articletitle {
+    font-size: 2rem;
+    font-family: serif;
+}
+.town-article {
+    display: block;
+    text-align: left
+}
 footer {
-	}
+}
+h5 {
+    font-size: 1.1rem;
+}
+.footer-bar{
+      font-size: .7rem;  
+    }
