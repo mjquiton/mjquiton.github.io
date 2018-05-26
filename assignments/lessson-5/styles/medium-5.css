@@ -5,8 +5,6 @@
     nav button { display:none; }  /* hamburger button does not need to be shown in the medium on up views */
     .franklincity{
         max-width: 450px;
-        //width: auto;
-        //float:left;
     }
     .tenDayForecast{
         display: block;
@@ -16,8 +14,6 @@
     }
 
     section.forecast { 
-        /*min-width: 481px;
-        max-width: 860px;*/
         width: 600px;
     }  /* show the 10-day forecast with the medium view and up */
 

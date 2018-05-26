@@ -5,8 +5,6 @@
 body {
 	font-size: 16px;
 	font-family: sans-serif;
-	//min-width: 100px;
-	//max-width: 600px;
     align-items: center;
     align-content: center;
     text-align: center;
@@ -15,7 +13,7 @@ body {
 header, nav, main, footer {
 	min-width: 480px;
     max-width: 1024px;
-	//background-color: darkgray;/* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+/* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
 }
 header { 
 }
@@ -50,14 +48,12 @@ header img {
 
 }
 header .subheading {
-    //background-color: blueviolet;
 }
 
 nav button {
 }
 
 nav ul {
-    //display: inline-block;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -94,17 +90,8 @@ main h2 {
 }
 main figure {
 	margin: 0 0 .2rem 2%;
-	//width: 96%;
 }
 main figure img {
 }
 footer {
 	}
-footer section{
-    }
-
-.contact {
- 	display:inline-block;
-	 padding: 3px;
-}
-}
