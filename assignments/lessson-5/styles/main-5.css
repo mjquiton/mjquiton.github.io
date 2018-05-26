@@ -99,8 +99,12 @@ main figure {
 main figure img {
 }
 footer {
- .contact {
- 	display:block;
-	 padding: 3px;
 	}
+footer section{
+    }
+
+.contact {
+ 	display:inline-block;
+	 padding: 3px;
+}
 }
