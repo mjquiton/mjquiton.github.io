@@ -13,11 +13,19 @@
         <body>
 
             <header>
-                <img src="https://i1.wp.com/thegoodheartlife.com/wp-content/uploads/2018/05/DSC_2312.jpg?resize=1024%2C399&ssl=1" width="1400" height="300" alt="dandelion field">
-                <h1>Tri-City Weather Happenings</h1>
-                <div class="subheading">Where Weather Happens</div>
+                <div id="topBannerBox">
+                    <img id="weatherImage" src="images/weather.png" alt="tri-cities weather logo">
+                
+                    <div id="topBanner">
+                        <h1 class="topHeader">Tri-City Weather Happenings</h1>
+                
+                        <div class="subheading">Where Weather Happens</div>
+                    </div>
+                </div>
+                
+                <img class="franklincity" src="images/tacoma-water-front.png" alt="franklin water front">
+                
             </header>
-
                 <nav>
                     <ul>
     	               <li><a href="#">Home</a></li>
@@ -27,7 +35,7 @@
     	               <li><a href="#">Storm Center</a></li>
     	               <li><a href="#">Gallery</a></li>
                     </ul>		
-                </nav>
+            </nav>
     
     <main>
         <h2>Tri-City Weather Happenings</h2>
@@ -36,13 +44,13 @@
             <section class="weather-summary">
         <h3>Weather Summary</h3>    
         <div class="highlow">
-            <p>High:</p>  
-            <p>Low:</p>  
+            <p>High: 90</p>  
+            <p>Low: 80</p>  
         </div>
         <div class="current">
             Sunny
             <picture>
-            <img src="images/#" alt="">
+            <img src="images/sunny.png" alt="sunny">
             </picture>
         </div>   
         <div class="conditions">
@@ -52,7 +60,8 @@
         </section>
         
         <section class="forecast">
-      <h3>Ten Day Forecast</h3>
+      <div class="tenDayForecast">
+        <h3>Ten Day Forecast</h3>
         <table>
             <thead>
                 <tr>
@@ -83,11 +92,12 @@
                 </tr>
 	       </tbody>
         </table>
+            </div>
         </section>
       
         <article>
-      <h3>Franklin Breaks Record</h3>	
-            <img src="">
+            <h3>Franklin Breaks Record</h3>
+          <img src="images/tacoma-water-front.png" alt="franklin image" class="franklincity">
             <p class="town-article">
             </p>
         </article>		  
@@ -96,13 +106,19 @@
     
     <footer>
         <section class="contact">
-            Contact information placeholder
-            999.999.9999
-            123 Main St. Anytown, US 99999
-            Google Map
+			<aside>
+                <p>Contact Information:</p>
+                <p>Tri-City Weather Happenings<br>
+                  1129 Bloomfield Way<br>
+                  Franklin<br>
+                  (207)-641-4924<br>
+                  contact@tcwhappenings.com</p>
+			</aside>
+			<p class="footer-bar">© 2018 | Tri-City Weather Happenings | <span id="currendate">Date</span></p>
         </section>
-        <section class="footer-bar">&copy;2018 | All Rights Reserved | Site Title | <span id="currentdate">Current Date Placeholder</span>
-    </section>
+        <br>
+        <section><div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+            <div>Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div></div></section>
   </footer>
 
     </body>
