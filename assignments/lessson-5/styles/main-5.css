@@ -1,39 +1,54 @@
 * {
 	box-sizing: border-box;
-	margin: auto
 }  /* This wildcard applies to all elements ensuring a box layout model */
 body {
 	font-size: 16px;
 	font-family: sans-serif;
     align-items: center;
     align-content: center;
-    text-align: center;
-    
+    text-align: center;  
 }
+
 header, nav, main, footer {
-	min-width: 480px;
+	/*min-width: 480px;*/
     max-width: 1024px;
 /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
 }
+
 header { 
+    margin: 0  auto;
 }
+
 header h1 {
     display:inline;
 	color: purple;
 	font-size: 2.4rem;
 }
+
 .topHeader{
 }
-.tenDayForecast{
-    display: none;
+
+th {
+    padding: 2px;
+    border: 1px solid black;
+    background-color: #333;
+    color: whitesmoke;
 }
+
+td {
+    padding: 2px;
+    border: 1px solid black;
+}
+
 #topBanner{
 }
+
 #topBannerBox{
     width: 450px;
     text-align: left;
     margin-bottom: 10px;
 }
+
 #weatherImage{
     float: left;
     margin-right: 10px;
@@ -41,12 +56,15 @@ header h1 {
     display: inline-flex;
     max-width: 96px;
 }
+
 .franklincity {
-    max-width: 450px;
+    max-width: 75%;
 }
+
 header img {
 
 }
+
 header .subheading {
 }
 
@@ -80,36 +98,51 @@ li a:hover:not(.active) {
 .active {
     background-color: #4CAF50;
 }
+
 nav {
     display: none;
 }
+
 main {
 }
+
 main h2 {
 	color: blueviolet;
     font-size: 2.2rem;
 }
+
 main figure {
 	margin: 0 0 .2rem 2%;
 }
+
 main figure img {
 }
+
 #weathercondition {
     font-size: 1.3rem;   
 }
+
 #articletitle {
     font-size: 2rem;
     font-family: serif;
 }
+
 .town-article {
     display: block;
     text-align: left
 }
+.tenDayForecast{
+    display: none;
+    max-width: 599px;
+}
+
 footer {
 }
+
 h5 {
     font-size: 1.1rem;
 }
+
 .footer-bar{
       font-size: .7rem;  
-    }
+}
