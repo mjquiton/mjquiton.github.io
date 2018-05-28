@@ -1,0 +1,27 @@
+#block {
+   background-color: antiquewhite
+}
+
+/*li {
+    display:block;
+    background-color: aquamarine;
+}*/
+
+li {
+    display: inline;
+    background-color: coral
+}
+
+ #inlineBlock {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    padding: 15px;
+    border: 10px solid yellow; 
+    background-color: cornflowerblue; 
+}
+
+#displayNone {
+   display: none;/*delete comment after discussing display: none*/
+    background-color: deeppink;
+}*/
