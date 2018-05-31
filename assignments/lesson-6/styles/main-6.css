@@ -131,8 +131,9 @@ main figure img {
     display: block;
     text-align: left
 }
-.tenDayForecast{
+.forecast{
     display: none;
+    min-width: 250px;
     max-width: 599px;
 }
 

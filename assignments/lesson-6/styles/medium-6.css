@@ -30,11 +30,12 @@
 .weather-summary, .highlow, .current, #weathercondition {
    align-self: center;
 }
-    .tenDayForecast{
-        display: block;
-        /*align-content: center;*/
-        /*float: inherit;*/
-    }
+    /*.forecast{
+        display: inline;
+        align-content: center
+        float: inherit;
+    }*/
+
     /*table, thead, tr, td {
     border-collapse: collapse;
     width: 100%;
@@ -56,6 +57,11 @@ nav{
 .franklincity {
         max-width: 80%x;
     }
-section, .forecast { 
-        width: 600px;
+.forecast { 
+        display: inline-flex;
+        align-content: center;
+        min-width:600px;
+        float: left;
+        margin: 0 auto;
+        padding: 2px;
     }  /* show the 10-day forecast with the medium view and up */
