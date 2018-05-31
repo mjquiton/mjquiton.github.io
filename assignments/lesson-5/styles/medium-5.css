@@ -1,0 +1,61 @@
+@media only screen and (min-width: 600px) {
+
+    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
+    
+    nav button { display:none; }  /* hamburger button does not need to be shown in the medium on up views */
+    }
+
+    #weatherImage{
+    float: left;
+    margin-right: 10px;
+    
+    display: inline-flex;
+    max-width: 96px;
+}
+.weather-summary {
+    display: block;
+    float:left;
+    align-content: center;
+}
+.highlow {
+    float: right;
+}
+.current {
+    float: inherit;
+}
+#weathercondition {
+    float: inherit;
+    
+}
+.weather-summary, .highlow, .current, #weathercondition {
+   align-self: center;
+}
+    .tenDayForecast{
+        display: block;
+        /*align-content: center;*/
+        /*float: inherit;*/
+    }
+    /*table, thead, tr, td {
+    border-collapse: collapse;
+    width: 100%;
+}*/
+
+th, td {
+    text-align: center;
+    padding: 2px;
+    border: 1px solid black;
+}
+    
+th {
+    color: whitesmoke;
+}
+    
+nav{
+        display: inline-flex;
+    }
+.franklincity {
+        max-width: 80%x;
+    }
+section, .forecast { 
+        width: 600px;
+    }  /* show the 10-day forecast with the medium view and up */
