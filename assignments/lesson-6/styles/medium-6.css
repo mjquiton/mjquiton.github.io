@@ -3,7 +3,7 @@
     /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
     
     nav button { display:none; }  /* hamburger button does not need to be shown in the medium on up views */
-    }
+    
 
     #weatherImage{
     float: left;
@@ -28,7 +28,7 @@
     
 }
 .weather-summary, .highlow, .current, #weathercondition {
-   align-self: center;
+   /*align-self: center;*/
 }
     /*.forecast{
         display: inline;
@@ -54,14 +54,19 @@ th {
 nav{
         display: inline-flex;
     }
+li {
+    float: left;
+}
 .franklincity {
         max-width: 80%x;
     }
 .forecast { 
-        display: inline-flex;
+        display: block;
         align-content: center;
-        min-width:600px;
+        /*min-width:600px;*/
         float: left;
-        margin: 0 auto;
-        padding: 2px;
+        /*margin: 0 0 0 2;*/
+        padding: 20px auto;
     }  /* show the 10-day forecast with the medium view and up */
+    
+}

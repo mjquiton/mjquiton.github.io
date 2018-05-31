@@ -11,12 +11,14 @@ body {
 
 header, nav, main, footer {
 	/*min-width: 480px;*/
-    max-width: 1024px;
+    max-width: 960px;
+    /*background-color: aliceblue;*/
 /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
 }
 
 header { 
     margin: 0  auto;
+    /*background-color: navy;*/
 }
 
 header h1 {
@@ -25,8 +27,10 @@ header h1 {
 	font-size: 2.4rem;
 }
 
-.topHeader{
-}
+/*/.topHeader{
+}*/
+
+
 
 th {
     padding: 2px;
@@ -40,36 +44,51 @@ td {
     border: 1px solid black;
 }
 
-#topBanner{
-}
+/*#topBanner{
+}*/
 
 #topBannerBox{
-    width: 450px;
+    /*width: 450px;*/
     text-align: left;
-    margin-bottom: 10px;
+    padding: 10 auto;
+    margin-bottom: 10 auto;
+   /* background-color: chartreuse;*/
 }
 
 #weatherImage{
     float: left;
     margin-right: 10px;
-    
     display: inline-flex;
-    max-width: 96px;
+    /*max-width: 96px;*/
+}
+
+.conditions, picture {
+    float: center; 
+}
+.conditions, h3 {
+    font-size: 2rem; 
+}
+
+.conditions, p {
+    font-size: 1rem;
 }
 
 .franklincity {
-    max-width: 75%;
+    /*max-width: 75%;*/
+    /*background-color: dodgerblue;*/
 }
 
-header img {
-
-}
+/*header img {
+}*/
 
 header .subheading {
+    margin: 0 0 5 0;
+    padding: 0 auto;
+   /* background-color: chocolate;*/
 }
 
-nav button {
-}
+/*nav button {
+}*/
 
 nav ul {
     list-style-type: none;
@@ -77,10 +96,6 @@ nav ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-}
-
-li {
-    float: left;
 }
 
 li a {
@@ -99,12 +114,8 @@ li a:hover:not(.active) {
     background-color: #4CAF50;
 }
 
-nav {
-    display: none;
-}
-
-main {
-}
+/*main {
+}*/
 
 main h2 {
 	color: blueviolet;
@@ -113,37 +124,46 @@ main h2 {
 
 main figure {
 	margin: 0 0 .2rem 2%;
+    /*background-color: palevioletred;*/
 }
 
-main figure img {
-}
+/*main figure img {
+}*/
 
 #weathercondition {
-    font-size: 1.3rem;   
+    font-size: 1.3rem; 
+    /*background-color: aquamarine;*/
 }
 
 #articletitle {
     font-size: 2rem;
     font-family: serif;
+    /*background-color: cadetblue;*/
 }
 
 .town-article {
     display: block;
-    text-align: left
+    text-align: left;
+    font-size: 1.1rem;
+   /* background-color: indianred;*/
 }
+
 .forecast{
     display: none;
-    min-width: 250px;
-    max-width: 599px;
+    /*min-width: 250px;*/
+   /* max-width: 599px;*/
+   /* background-color: darkseagreen*/
 }
 
-footer {
-}
+/*footer {
+background-color: pink
+}*/
 
 h5 {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+    /*background-color: navajowhite*/
 }
 
 .footer-bar{
-      font-size: .7rem;  
+      font-size: 1rem;  
 }
