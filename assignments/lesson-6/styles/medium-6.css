@@ -14,12 +14,12 @@
 }
 .weather-summary {
     display: block;
-    float:left;
+    /*float:left;*/
     align-content: center;
 }
-.highlow {
+/*.highlow {
     float: right;
-}
+}*/
 .current {
     float: inherit;
 }
@@ -40,7 +40,9 @@
     border-collapse: collapse;
     width: 100%;
 }*/
-
+    table {
+        margin: auto;
+    }
 th, td {
     text-align: center;
     padding: 2px;
@@ -51,22 +53,21 @@ th {
     color: whitesmoke;
 }
     
-nav{
+/*nav{
         display: inline-flex;
-    }
+    }*/
 li {
     float: left;
 }
-.franklincity {
-        max-width: 80%x;
-    }
+    
 .forecast { 
         display: block;
         align-content: center;
         /*min-width:600px;*/
-        float: left;
+       /* float: left;*/
         /*margin: 0 0 0 2;*/
         padding: 20px auto;
+        width: 100%;
     }  /* show the 10-day forecast with the medium view and up */
     
 }

@@ -6,7 +6,10 @@ body {
 	font-family: sans-serif;
     align-items: center;
     align-content: center;
-    text-align: center;  
+    text-align: center; 
+}
+main > img {
+    width: 100%;
 }
 
 header, nav, main, footer {
@@ -73,11 +76,6 @@ td {
     font-size: 1rem;
 }
 
-.franklincity {
-    /*max-width: 75%;*/
-    /*background-color: dodgerblue;*/
-}
-
 /*header img {
 }*/
 
@@ -89,7 +87,9 @@ header .subheading {
 
 /*nav button {
 }*/
-
+nav {
+    clear: both;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -129,7 +129,10 @@ main figure {
 
 /*main figure img {
 }*/
-
+.current img {
+    width: 128px;
+    
+}
 #weathercondition {
     font-size: 1.3rem; 
     /*background-color: aquamarine;*/
@@ -154,7 +157,10 @@ main figure {
    /* max-width: 599px;*/
    /* background-color: darkseagreen*/
 }
-
+article img {
+    float: left;
+    width: 45%;
+}
 /*footer {
 background-color: pink
 }*/
