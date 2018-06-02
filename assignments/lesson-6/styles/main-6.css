@@ -6,8 +6,9 @@ body {
 	font-family: karla, playfair-display, sans-serif;
     align-items: center;
     align-content: center;
-    text-align: center; 
+    text-align: center;
 }
+
 main > img {
     width: 100%;
 }
