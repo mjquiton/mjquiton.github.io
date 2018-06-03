@@ -1,9 +1,11 @@
 * {
 	box-sizing: border-box;
 }  /* This wildcard applies to all elements ensuring a box layout model */
+
 body {
 	font-size: 16px;
-	font-family: karla, playfair-display, sans-serif;
+	font-family: 'Playfair Display SC', serif;
+    font-family: 'Karla', sans-serif;
     align-items: center;
     align-content: center;
     text-align: center;
@@ -16,17 +18,15 @@ main > img {
 header, nav, main, footer {
 	/*min-width: 480px;*/
     max-width: 960px;
-    /*background-color: aliceblue;*/
 /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
 }
 
 header { 
     margin: 0  auto;
-    /*background-color: navy;*/
 }
 
 header h1 {
-    font-family: playfair-display;
+    font-family: 'Playfair Display SC', serif;
     display:inline;
 	color: purple;
 	font-size: 3.4rem;
@@ -55,14 +55,12 @@ td {
     text-align: left;
     padding: 10 auto;
     margin-bottom: 10 auto;
-   /* background-color: chartreuse;*/
 }
 
 #weatherImage{
     float: left;
     margin-right: 10px;
     display: inline-flex;
-    /*max-width: 96px;*/
 }
 
 .conditions, picture {
@@ -83,14 +81,18 @@ header .subheading {
     margin: 0 0 5 0;
     padding: 0 auto;
     font-size: 2rem;
-   /* background-color: chocolate;*/
 }
-
-/*nav button {
-}*/
 
 nav {
     clear: both;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #111;
 }
 
 nav ul {
@@ -117,18 +119,25 @@ li a:hover:not(.active) {
     background-color: #4CAF50;
 }
 
+/*nav ul li a {
+    display:block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    /*color: #111;*/
+    border-top: 1px solid rgba(0, 0, 0, 0.3)
+}*/
+
 /*main {
 }*/
 
 main h2 {
-    font-family: playfair-display;
+    font-family: 'Playfair Display SC', serif;
 	color: blueviolet;
     font-size: 3rem;
 }
 
 main figure {
 	margin: 0 0 .2rem 2%;
-    /*background-color: palevioletred;*/
 }
 
 /*main figure img {
@@ -140,42 +149,36 @@ main figure {
 
 #weathercondition {
     font-size: 1.3rem; 
-    /*background-color: aquamarine;*/
 }
 
 #articletitle {
     font-size: 2rem;
-    font-family: serif;
-    /*background-color: cadetblue;*/
+    font-family: 'Playfair Display SC', serif;
 }
 
 .town-article {
     display: block;
     text-align: left;
     font-size: 1.1rem;
-   /* background-color: indianred;*/
 }
 
 .forecast{
     display: none;
-    /*min-width: 250px;*/
-   /* max-width: 599px;*/
-   /* background-color: darkseagreen*/
 }
+
 article img {
     float: left;
     width: 45%;
 }
+
 /*footer {
-background-color: pink
 }*/
 
 h5 {
     font-size: 1.5rem;
-    /*background-color: navajowhite*/
 }
 
 .footer-bar{
-    font-family: karla, sans-serif;
-      font-size: 1rem;  
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;  
 }

@@ -4,45 +4,39 @@
     
     nav button { display:none; }  /* hamburger button does not need to be shown in the medium on up views */
     
-
     #weatherImage{
     float: left;
     margin-right: 10px;
-    
     display: inline-flex;
     max-width: 96px;
 }
+    
 .weather-summary {
     display: block;
     /*float:left;*/
     align-content: center;
 }
+    
 /*.highlow {
     float: right;
 }*/
+    
 .current {
     float: inherit;
 }
-#weathercondition {
-    float: inherit;
     
+#weathercondition {
+    float: inherit;  
 }
+    
 .weather-summary, .highlow, .current, #weathercondition {
    /*align-self: center;*/
 }
-    /*.forecast{
-        display: inline;
-        align-content: center
-        float: inherit;
-    }*/
-
-    /*table, thead, tr, td {
-    border-collapse: collapse;
-    width: 100%;
-}*/
-    table {
-        margin: auto;
-    }
+    
+table {
+     margin: auto;
+}
+    
 th, td {
     text-align: center;
     padding: 2px;
@@ -56,6 +50,8 @@ th {
 /*nav{
         display: inline-flex;
     }*/
+    
+
 li {
     float: left;
 }
