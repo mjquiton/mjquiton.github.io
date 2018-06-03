@@ -169,6 +169,7 @@ main figure {
 article img {
     float: left;
     width: 45%;
+    margin: 10px;
 }
 
 /*footer {
