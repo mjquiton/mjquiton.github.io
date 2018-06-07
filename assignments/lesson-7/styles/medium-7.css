@@ -1,0 +1,85 @@
+@media only screen and (min-width: 600px) {
+
+    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
+    
+    nav button { display:none; }  /* hamburger button does not need to be shown in the medium on up views */
+    
+    #weatherImage{
+    float: left;
+    margin-right: 10px;
+    display: inline-flex;
+    max-width: 96px;
+}
+
+    /*nav ul {
+        margin-left: 2%;
+    }
+    
+nav button {
+    display: none;
+}
+    
+nav ul li {
+    float: left;   
+}
+    
+nav ul.hide {
+        display: block;
+    } 
+nav ul li a {
+     border: none;
+    border-right: 1px solid rgba(0,0,0,0.3);
+    padding: .8rem 1rem;
+        
+    }*/
+    
+.weather-summary {
+    display: block;
+    /*float:left;*/
+    align-content: center;
+}
+    
+/*.highlow {
+}*/
+    
+.current {
+    float: inherit;
+}
+    
+#weathercondition {
+    float: inherit;  
+}
+    
+.weather-summary, .highlow, .current, #weathercondition {
+   /*align-self: center;*/
+}
+    
+table {
+     margin: auto;
+}
+    
+th, td {
+    text-align: center;
+    padding: 2px;
+    border: 1px solid black;
+}
+    
+th {
+    color: whitesmoke;
+}
+    
+li {
+    float: left;
+}
+    
+.forecast { 
+        display: block;
+        align-content: center;
+        /*min-width:600px;*/
+       /* float: left;*/
+        /*margin: 0 0 0 2;*/
+        padding: 20px auto;
+        width: 100%;
+    }  /* show the 10-day forecast with the medium view and up */
+    
+}

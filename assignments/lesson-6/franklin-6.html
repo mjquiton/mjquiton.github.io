@@ -3,7 +3,7 @@
     <head> 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Tri-City Weather Happening4</title>
+        <title>Tri-City Weather Happening</title>
         <meta name="description" content="Weather Site for Tri-City Weather Happenings">
         <link rel="stylesheet" href="styles/normalize.css">
         <link rel="stylesheet" href="styles/main-6.css">
@@ -23,15 +23,12 @@
                         <div class="subheading">Where Weather Happens</div>
                     </div>
                 </div>
-                
-                <!-- <img class="franklincity" src="images/tacoma-water-front2.png" alt="franklin water front"> -->
-                
             </header>
-                <nav>
-                    <button>&#9776;</button>
-                    <ul>
+                <nav class="clearfix">
+                    <button onlick="toggleMenu()">&#9776;</button>
+                    <ul id="primaryNav" class="hide">
     	               <li><a href="#">Home</a></li>
-    	               <li><a href="#">Franklin</a></li>
+    	               <li><a href="actFrank">Franklin</a></li>
     	               <li><a href="#">Greenville</a></li>
     	               <li><a href="#">Springfield</a></li>
     	               <li><a href="#">Storm Center</a></li>
@@ -42,7 +39,7 @@
     <main>
         <h2>Franklin</h2>
             <img src="images/byui-franklin-images/franklin-large.jpg" alt="Sunny meadow"
-                srcset="images/byui-franklin-images/franklin-small.jpg 300w, images/byui-franklin-images/franklin-medium.jpg 700w, images/byui-franklin-images/franklin-large.jpg 1000w">
+                srcset="images/byui-franklin-images/franklin-small.jpg 600w, images/byui-franklin-images/franklin-medium.jpg 900w, images/byui-franklin-images/franklin-large.jpg 1024w">
         
         <section class="weather-summary">
             

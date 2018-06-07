@@ -1,0 +1,189 @@
+* {
+	box-sizing: border-box;
+}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+	font-size: 16px;
+	font-family: 'Playfair Display SC', serif;
+    font-family: 'Karla', sans-serif;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+main > img {
+    width: 100%;
+}
+
+header, nav, main, footer {
+    max-width: 960px;
+/* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+
+header { 
+    margin: 0  auto;
+}
+
+header h1 {
+    font-family: 'Playfair Display SC', serif;
+    display:inline;
+	color: purple;
+	font-size: 3.4rem;
+}
+
+/*/.topHeader{
+}*/
+
+th {
+    padding: 2px;
+    border: 1px solid black;
+    background-color: #333;
+    color: whitesmoke;
+}
+
+td {
+    padding: 2px;
+    border: 1px solid black;
+}
+
+/*#topBanner{
+}*/
+
+#topBannerBox{
+    /*width: 450px;*/
+    text-align: left;
+    padding: 10 auto;
+    margin-bottom: 10 auto;
+}
+
+#weatherImage{
+    float: left;
+    margin-right: 10px;
+    display: inline-flex;
+}
+
+.conditions, picture {
+    float: center; 
+}
+.conditions, h3 {
+    font-size: 2rem; 
+}
+
+.conditions, p {
+    font-size: 1rem;
+}
+
+/*header img {
+}*/
+
+header .subheading {
+    margin: 0 0 5 0;
+    padding: 0 auto;
+    font-size: 2rem;
+}
+
+nav {
+    clear: both;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #111;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+/*nav ul.hide {
+    display:none;
+}*/
+
+/*main {
+}*/
+
+main h2 {
+    font-family: 'Playfair Display SC', serif;
+	color: blueviolet;
+    font-size: 3rem;
+}
+
+main figure {
+	margin: 0 0 .2rem 2%;
+}
+
+/*main figure img {
+}*/
+
+.current img {
+    width: 128px;  
+}
+
+#weathercondition {
+    font-size: 1.3rem; 
+}
+
+#articletitle {
+    font-size: 2rem;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.town-article {
+    display: block;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.forecast{
+    display: none;
+}
+
+article img {
+    float: left;
+    width: 45%;
+    margin: 10px;
+}
+
+/*footer {
+    display: flex;
+	flex-flow:column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;*/
+}
+/*footer {
+	flex: 0 1 100%;
+	height: 3rem;
+}*/
+
+h5 {
+    font-size: 1.5rem;
+}
+
+.footer-bar{
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;  
+}
