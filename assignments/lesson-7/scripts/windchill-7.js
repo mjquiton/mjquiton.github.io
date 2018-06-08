@@ -1,11 +1,11 @@
-public class WindChill {
-    public static void main(String[] args) {
-        double t = Double.parseDouble(args[0]);
-        double v = Double.parseDouble(args[1]);
-        double w = 35.74 + 0.6215*t + (0.4275*t - 35.75) * Math.pow(v, 0.16);
-        System.out.println("Temperature = " + t);
-        System.out.println("Wind speed  = " + v);
-        System.out.println("Wind chill  = " + w);
-    }
+let high - parseFloat(document.getElementById("hightemp").innerHTML);
+let low = parseFloat(document.getElementById("wind").innerHTML);
 
-}
+let t = (hight + low) / 2;
+
+lwt windchillfactor - 35.74 + 0.6215 * t - 35.75 * Math.pow(s, 0.16) +0.4275 * t * Math.pow(s, 0.16);
+
+//where f is the wind chill factor in fahrenheit, t is the air average in fahrenheit, and s is the wind speed in miles per hour.
+
+
+document.getElementById("windchillfactor").innerHTML -Math.round(windchillfactor);
