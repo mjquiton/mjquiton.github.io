@@ -182,14 +182,10 @@ article img {
 h5 {
     font-size: 1.5rem;
 }
-
-@media only screen and (max-width: 600px) {
-.imageGallery {
-    list-style: none;
+.gallery {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 1fr;   
-}
 }
 
 /*.gallery ul {
