@@ -117,11 +117,11 @@ li a:hover:not(.active) {
 .active {
     background-color: #4CAF50;
 }
-
-/*nav ul.hide {
+@media only screen and (max-width: 600px){
+nav ul.hide {
     display:none;
-}*/
-
+}
+}
 /*main {
 }*/
 
@@ -183,6 +183,15 @@ h5 {
     font-size: 1.5rem;
 }
 
+.imageGallery {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;   
+}
+
+.gallery ul {
+    list-style: none;
+}
 .footer-bar{
     font-family: 'Karla', sans-serif;
     font-size: 1rem;  
