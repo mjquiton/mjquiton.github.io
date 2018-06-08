@@ -191,9 +191,10 @@ h5 {
     grid-template-columns: 1fr;   
 }
 }
-.gallery ul {
+
+/*.gallery ul {
     list-style: none;
-}
+}*/
 
 .footer-bar{
     font-family: 'Karla', sans-serif;

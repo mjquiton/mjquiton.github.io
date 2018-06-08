@@ -8,4 +8,4 @@ lwt windchillfactor - 35.74 + 0.6215 * t - 35.75 * Math.pow(s, 0.16) +0.4275 * t
 //where f is the wind chill factor in fahrenheit, t is the air average in fahrenheit, and s is the wind speed in miles per hour.
 
 
-document.getElementById("windchillfactor").innerHTML -Math.round(windchillfactor);
+document.getElementById("windchillfactor").innerHTML - Math.round(windchillfactor);
