@@ -15,6 +15,10 @@ main > img {
     width: 100%;
 }
 
+.caption {
+    font-size: .7rem;
+}
+
 header, nav, main, footer {
     max-width: 960px;
 /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
