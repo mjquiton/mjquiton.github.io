@@ -45,11 +45,13 @@ li {
     
 .forecast { 
         display: block;
-        align-content: center;
+        flex-direction: row;
         padding: 20px auto;
-        width: 100%;
     }  /* show the 10-day forecast with the         medium view and up */
     
+    
+
+
  .gallery {
     grid-template-columns: 1fr 1fr;   
 } 

@@ -23,13 +23,15 @@ header, nav, main, footer {
 /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
 }
 
-header { 
-    margin: 0  auto;
+header {
+    display: flex,
+    justify-content: center;
+    align-items: center;
+    /*margin: 0  auto;*/
 }
 
 header h1 {
     font-family: 'Playfair Display SC', serif;
-    display:inline;
 	color: purple;
 	font-size: 3.4rem;
 }
@@ -37,7 +39,7 @@ header h1 {
 /*header img {
 }*/
 
-header .subheading {
+ .subheading {
     margin: 0 0 5 0;
     padding: 0 auto;
     font-size: 2rem;
@@ -53,8 +55,7 @@ header .subheading {
 /*#topBanner{
 }*/
 
-#topBannerBox{
-    /*width: 450px;*/
+/*#topBannerBox{
     text-align: left;
     padding: 10 auto;
     margin-bottom: 10 auto;
@@ -67,7 +68,8 @@ header .subheading {
 }
 
 .conditions, picture {
-    float: center; 
+    display: flex;
+    justify-content: center;
 }
 .conditions, h3 {
     font-size: 2rem; 
@@ -75,7 +77,7 @@ header .subheading {
 
 .conditions, p {
     font-size: 1rem;
-}
+}*/
 
 /* ------ HEADER ------ */
 
@@ -94,15 +96,19 @@ nav button {
 }
 
 nav ul {
+    display: flex;
+    justify-content: space-around;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    /padding: 0;
     overflow: hidden;
     background-color: #333;
 }
 
 li a {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -145,14 +151,31 @@ main > img {
 
 /* ------- MAIN ----- */
 
-/* ------ FORCAST ----- */
+/* ------ WEATHER SUMMARY ------ */
+.weather-summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.highlow {
+    
+}
 .current img {
     width: 128px;  
 }
 
-#weathercondition {
-    font-size: 1.3rem; 
+.conditions h3 {
+    font-size: 2rem; 
 }
+
+/*#weathercondition {
+    font-size: 1.3rem; 
+}*/
+
+/* ------ WEATHER SUMMARY ------*/
+
+/* ------ FORCAST ----- */
 
 .forecast{
     display: none;
@@ -200,17 +223,13 @@ article img {
 
 /* ------ FOOTER ------ */
 
-/*footer {
+footer {
     display: flex;
-	flex-flow:column;
+	flex-flow: row;
 	align-items: center;
 	justify-content: center;
-	padding: 10px;*/
+	padding: 10px;*
 }
-/*footer {
-	flex: 0 1 100%;
-	height: 3rem;
-}*/
 
 h5 {
     font-size: 1.5rem;
