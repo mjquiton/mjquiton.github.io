@@ -250,4 +250,8 @@ h5 {
     width: 100%;
 }
 
+div img {
+    box-shadow: 4px 4px 4px 4px #888888;
+}
+
 /* ------- GALLERY -------- */
