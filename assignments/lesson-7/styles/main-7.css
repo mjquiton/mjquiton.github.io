@@ -19,7 +19,7 @@ body {
 /* ------ HEADER ------ */
 
 header, nav, main, footer {
-    max-width: 960px;
+    max-width: 1024px;
 /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
 }
 
@@ -48,36 +48,6 @@ header h1 {
 .caption {
     font-size: .7rem;
 }
-
-/*/.topHeader{
-}*/
-
-/*#topBanner{
-}*/
-
-/*#topBannerBox{
-    text-align: left;
-    padding: 10 auto;
-    margin-bottom: 10 auto;
-}
-
-#weatherImage{
-    float: left;
-    margin-right: 10px;
-    display: inline-flex;
-}
-
-.conditions, picture {
-    display: flex;
-    justify-content: center;
-}
-.conditions, h3 {
-    font-size: 2rem; 
-}
-
-.conditions, p {
-    font-size: 1rem;
-}*/
 
 /* ------ HEADER ------ */
 
