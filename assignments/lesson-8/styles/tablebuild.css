@@ -1,0 +1,23 @@
+* {
+	box-sizing: border-box;
+}  /* This wildcard applies to all elements ensuring a box layout model */
+body {
+    font-family: ubuntu, sans-serif;
+}
+thead {
+    font-size: 2rem;
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-family: ubuntu, sans-serif;
+}
+
+td {
+    border: solid black 1px;
+}
+th {
+    border: solid black 1px;
+}
