@@ -4,20 +4,46 @@
 body {
     font-family: ubuntu, sans-serif;
 }
-thead {
-    font-size: 2rem;
+
+table { 
+  width: 250px; 
+  border-collapse: collapse; 
+    box-shadow: 3px 2px 3px 2px #888888;
 }
 
-table {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    font-family: ubuntu, sans-serif;
+thead tr td {
+    background-color: #7fb9c2;
+    font-size: 1.6rem;
 }
 
-td {
-    border: solid black 1px;
+tfood td {
+    background-color: #7fb9c2;
 }
-th {
-    border: solid black 1px;
+
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  background: #e7f0ed; 
+}
+
+tr:nth-of-type(even) { 
+  background: #e7ffed; 
+}
+
+th { 
+  background: #628ca6; 
+  color: white; 
+  font-weight: bold; 
+}
+td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc;  
+}
+
+#acme {
+    background-color: #628ca6;
+    text-align: center;
+}
+
+.acme {
+    text-align: center;
 }
