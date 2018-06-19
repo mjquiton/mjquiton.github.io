@@ -269,7 +269,7 @@ form label.sbs{
 
 form input.submitBtn {
     border: none;
-    background-color: #9c2c13;
+    background-color: #333;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -279,11 +279,11 @@ form input.submitBtn {
 }
 
 form label.top input:required {
-    border-left: red solid 6px;
+    border-left: orange solid 6px;
 }
 
 form label.top input:required:valid {
-    border-left: green solid 6px;
+    border-left: purple solid 6px;
 }
 
 /* -------- FORM -------- */
