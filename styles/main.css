@@ -11,12 +11,12 @@ body {
 }
 
 h1 {
-    /*font-size: 1rem;*/
+    font-size: 3rem;
     color: whitesmoke;
 }
 
 h2 {
-    font-size: 1rem;
+    font-size: 1.4rem;
     text-align: center;
     border-bottom: 2px solid black;
 }
@@ -30,7 +30,7 @@ header, main, footer {
 
 header, footer, footer a {
     text-align: center;
-    background-color:cadetblue;
+    background-color:darkcyan;
     color: whitesmoke;
 }
 
@@ -40,6 +40,18 @@ header img {
     float: right;
 }
 
+.lesson {
+    font-family: baskerville, serif;
+    font-size: 1.3rem;
+    color: darkcyan
+}
+
+#cit {
+    font-family: baskerville, serif;
+    //background-color: whitesmoke;
+    //padding: 20px;
+    
+}
 footer {
     font-size: smaller;
 }
