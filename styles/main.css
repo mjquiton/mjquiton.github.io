@@ -16,9 +16,10 @@ h1 {
 }
 
 h2 {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     text-align: center;
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
+    color: #67a0ce;
 }
 
 header, main, footer {
@@ -30,7 +31,7 @@ header, main, footer {
 
 header, footer, footer a {
     text-align: center;
-    background-color:darkcyan;
+    background-color:#0e4572;
     color: whitesmoke;
 }
 
@@ -43,7 +44,7 @@ header img {
 .lesson {
     font-family: baskerville, serif;
     font-size: 1.3rem;
-    color: darkcyan
+    color: #67a0ce;
 }
 
 #cit {
