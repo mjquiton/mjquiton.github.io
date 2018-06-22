@@ -293,4 +293,5 @@ h2 {text-align:center;}
 }
 
 .mainpage img {border:1px solid #000080; width: 280px;}
-.data {background-color:lightslategray; color:#fff;}
+.data {background-color: white; color:#fff;
+font-size: 1.2rem;}
