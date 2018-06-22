@@ -8,7 +8,7 @@ weatherRequest.send();
 weatherRequest.onload = function(){
     let weatherData =JSON.parse(weatherRequest.responseText);
     document.getElementById('current-temp').innerHTML =weatherData.main.temp;
-    let imagesrc ='http://openweathermap.org/img/w/' + weatherData.weather[0].icon + 'png';
+    let imagesrc ="https://openweathermap.org/img/w/01n.png" + weatherData.weather[0].icon + "png";
  document.getElementById('weatherimage').src = imagesrc;
 }
 
