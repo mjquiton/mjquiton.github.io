@@ -13,9 +13,6 @@ body {
     text-align: center;
 }
 
-/* ----- BODY ----- */
-
-
 /* ------ HEADER ------ */
 
 header, nav, main, footer {
@@ -32,7 +29,7 @@ header {
 
 header h1 {
     font-family: 'Playfair Display SC', serif;
-	color: purple;
+	color: #3f6bba;
 	font-size: 3.4rem;
 }
 
@@ -43,13 +40,13 @@ header h1 {
     margin: 0 0 5 0;
     padding: 0 auto;
     font-size: 2rem;
+    color: #7185c6;
 }
 
 .caption {
     font-size: .7rem;
+    color: #7185c6;
 }
-
-/* ------ HEADER ------ */
 
 /* ------ NAV ------ */
 
@@ -70,7 +67,7 @@ nav ul {
     justify-content: space-around;
     list-style-type: none;
     margin: 0;
-    /padding: 0;
+    /*padding: 0;*/
     overflow: hidden;
     background-color: #333;
 }
@@ -98,8 +95,6 @@ nav ul.hide {
 }
 }
 
-/* ------ NAV ------ */
-
 /* ------ MAIN ----- */
 
 /*main {
@@ -107,7 +102,7 @@ nav ul.hide {
 
 main h2 {
     font-family: 'Playfair Display SC', serif;
-	color: blueviolet;
+	color: #3f6bba;
     font-size: 3rem;
 }
 
@@ -119,9 +114,8 @@ main > img {
     width: 100%;
 }
 
-/* ------- MAIN ----- */
-
 /* ------ WEATHER SUMMARY ------ */
+
 .weather-summary {
     display: flex;
     flex-direction: column;
@@ -143,18 +137,14 @@ main > img {
     font-size: 1.3rem; 
 }*/
 
-/* ------ WEATHER SUMMARY ------*/
-
 /* ------ FORCAST ----- */
 
 .forecast{
     display: none;
 }
 
-/* ------ FORCAST ----- */
-
-
 /* ------ TABLE ------ */
+
 th {
     padding: 2px;
     border: 1px solid black;
@@ -167,9 +157,6 @@ td {
     border: 1px solid black;
 }
 
-/* ------ TABLE ------ */
-
-
 /* ------ ARTICLE ------ */
 
 article img {
@@ -181,6 +168,7 @@ article img {
 #articletitle {
     font-size: 2rem;
     font-family: 'Playfair Display SC', serif;
+    color: #3f6bba;
 }
 
 .town-article {
@@ -188,8 +176,6 @@ article img {
     text-align: left;
     font-size: 1.1rem;
 }
-
-/* ------ ARTICLE ------ */
 
 /* ------ FOOTER ------ */
 
@@ -202,17 +188,16 @@ footer {
 }
 
 h5 {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 .footer-bar{
     font-family: 'Karla', sans-serif;
-    font-size: 1rem;  
+    font-size: .7rem;  
 }
 
-/* ------ FOOTER ------ */
-
 /* ------ GALLERY ------- */
+
 .gallery {
     display: grid;
     grid-template-columns: 1fr;
@@ -223,8 +208,6 @@ h5 {
 div img {
     box-shadow: 3px 2px 3px 2px #888888;
 }
-
-/* ------- GALLERY -------- */
 
 /* -------- FORM -------- */
 
@@ -286,4 +269,28 @@ form label.top input:required:valid {
     border-left: purple solid 6px;
 }
 
-/* -------- FORM -------- */
+/* -------- HOME PAGE -------- */
+
+/** {padding: .35rem;}
+h2 {text-align:center;}
+
+section {
+	max-width: 600px;
+  margin: .5rem auto;
+	border:1px solid #bbb;
+  background-color: #eee;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+article {
+  display: flex;
+	flex-direction: columns;
+}
+
+article:nth-child(odd) {
+	flex-direction: row-reverse;
+}
+
+img {border:1px solid #000080; width: 280px;}
+.data {background-color:#000; color:#fff;}*/
