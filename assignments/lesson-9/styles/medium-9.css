@@ -4,6 +4,9 @@
     
     nav button { display:none; 
     }  /* hamburger button does not need to be shown in the medium on up views */
+    nav ul {
+        flex-direction: row;
+    }
     
     #weatherImage{
     float: left;
@@ -64,5 +67,16 @@ li {
     /*justify-content: center;*/
     width: 100%;
 }
+
+    .mainpage {
+        flex-direction: column;
+    }
     
+    .mainpage > div {
+        flex-direction: row;
+    }
+    
+    .mainpage div:nth-child(odd){
+        flex-direction: row-reverse;
+    }
 }

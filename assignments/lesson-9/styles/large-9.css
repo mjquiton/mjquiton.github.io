@@ -12,10 +12,19 @@
         padding: .4rem 0;
     }
     
-    .index {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    /*justify-content: center;*/
-    width: 100%;
-}
+    .town {
+        width: 100%;
+    }
+    .mainpage  {
+        flex-direction: row;
+        max-width: 100%;
+    }
+    
+    .mainpage > div {
+        flex-direction: column;
+    }
+    
+    .mainpage div:nth-child(odd){
+        flex-direction: column;
+    }
   }

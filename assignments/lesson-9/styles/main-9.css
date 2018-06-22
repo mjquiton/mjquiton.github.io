@@ -1,5 +1,7 @@
 * {
 	box-sizing: border-box;
+    
+    
 }  /* This wildcard applies to all elements ensuring a box layout model */
 
 /* ------ BODY ----- */
@@ -16,6 +18,7 @@ body {
 /* ------ HEADER ------ */
 
 header, nav, main, footer {
+    margin: 0 auto;
     max-width: 1024px;
 /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
 }
@@ -64,6 +67,7 @@ nav button {
 
 nav ul {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     list-style-type: none;
     margin: 0;
@@ -281,17 +285,23 @@ h2 {text-align:center;}
   background-color: #eee;
 	display: flex;
 	flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-.mainpage article {
+.mainpage div {
   display: flex;
-	flex-direction: columns;
+	flex-direction: column;
+    background-color: white;
 }
 
 .mainpage article:nth-child(odd) {
 	flex-direction: row-reverse;
 }
 
-.mainpage img {border:1px solid #000080; width: 280px;}
-.data {background-color: white; color:#fff;
+.mainpage img {border:1px solid #000080; width: 280px;
+    align-self: center;
+}
+
+.data {background-color: white; color:#333;
 font-size: 1.2rem;}
