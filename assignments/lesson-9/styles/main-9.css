@@ -271,10 +271,10 @@ form label.top input:required:valid {
 
 /* -------- HOME PAGE -------- */
 
-/** {padding: .35rem;}
+.mainpage {padding: .35rem;}
 h2 {text-align:center;}
 
-section {
+.mainpage {
 	max-width: 600px;
   margin: .5rem auto;
 	border:1px solid #bbb;
@@ -283,14 +283,14 @@ section {
 	flex-wrap: wrap;
 }
 
-article {
+.mainpage article {
   display: flex;
 	flex-direction: columns;
 }
 
-article:nth-child(odd) {
+.mainpage article:nth-child(odd) {
 	flex-direction: row-reverse;
 }
 
-img {border:1px solid #000080; width: 280px;}
-.data {background-color:#000; color:#fff;}*/
+.mainpage img {border:1px solid #000080; width: 280px;}
+.data {background-color:lightslategray; color:#fff;}

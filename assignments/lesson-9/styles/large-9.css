@@ -11,4 +11,11 @@
     form label.sbs {
         padding: .4rem 0;
     }
+    
+    .index {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    /*justify-content: center;*/
+    width: 100%;
+}
   }
