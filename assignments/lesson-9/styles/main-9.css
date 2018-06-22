@@ -302,6 +302,8 @@ h2 {text-align:center;}
 .mainpage img {border:1px solid #000080; width: 280px;
     align-self: center;
 }
-
+.town > image {
+    float: right;
+}
 .data {background-color: white; color:#333;
 font-size: 1.2rem;}
