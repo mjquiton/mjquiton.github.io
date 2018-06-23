@@ -79,4 +79,7 @@ li {
     .mainpage div:nth-child(odd){
         flex-direction: row-reverse;
     }
+    .town .data {
+        float: none;
+    }
 }
