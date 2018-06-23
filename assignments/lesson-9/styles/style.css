@@ -11,7 +11,7 @@ body {
 
 h1, h2 {
   font-family: 'Faster One', cursive;
-    background-color: gray;
+    background-color: #d9d9d9;
 }
 
 /* header styles */
@@ -19,7 +19,7 @@ h1, h2 {
 h1 {
   font-size: 4rem;
   text-align: center;
-    color: #414647;
+    color: #737373;
 }
 
 header p {
@@ -50,4 +50,5 @@ h2 {
   font-size: 2.5rem;
   letter-spacing: -5px;
   margin-bottom: 10px;
+    color: #737373;
 }
