@@ -1,4 +1,8 @@
 /* CIT 230 - Assignment Portal CSS Template */
+* {
+	box-sizing: border-box; 
+} 
+
 
 html{ margin: 0; 
     box-sizing: border-box;
@@ -8,15 +12,16 @@ body {
     line-height: 32px;
     font-family:  Helvetica, Avenir, sans-serif;
     color: coral;
+    background-color: #e6e6e6;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: whitesmoke;
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-align: center;
     border-bottom: 3px solid black;
     color: #67a0ce;
