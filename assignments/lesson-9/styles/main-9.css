@@ -315,10 +315,14 @@ font-size: 1.2rem;}
 
 .datastyle {
     font-family: baskerville serif;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .mainpage h3 {
     font-family: baskerville serif;
     font-size: 1.5rem;
+}
+
+.townInfo {
+    font-size: 1rem;
 }

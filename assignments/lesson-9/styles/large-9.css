@@ -22,7 +22,8 @@
     
     .mainpage > div {
         flex-direction: column;
-        padding: 10px
+        padding: 3rem;
+        margin: 4rem;
     }
     
     .mainpage div:nth-child(odd){
