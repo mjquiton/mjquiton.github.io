@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tri-City Weather Happenings | Storm Center</title>
+        <meta name="description" content="Weather Site for Tri-City Weather Happenings">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/main-9.css">
+        <link rel="stylesheet" href="styles/medium-9.css">
+        <link rel="stylesheet" href="styles/large-9.css">
+        <link href="https://fonts.googleapis.com/css?family=Karl%7CPlayfair+Display+SC" rel="stylesheet">
+        <!--<link href="scripts/scripts-8.js" rel="scripts">-->
+    </head>
+        <body>
+
+            <header>
+                <div id="topBannerBox">
+                    <img id="weatherImage" src="images/weather.png" alt="tri-cities weather logo">
+                
+                    <div id="topBanner">
+                        <h1 class="topHeader">Tri-City Weather Happenings</h1>
+                
+                        <div class="subheading">Where Weather Happens</div>
+                    </div>
+                </div>
+            </header>
+                <nav>
+                    <button onclick="toggleMenu()">&#9776;</button>
+                    <ul id="primaryNav" class="hide">
+    	               <li><a href="index.html">Home</a></li>
+    	               <li><a href="franklin-8.html">Franklin</a></li>
+    	               <li><a href="#">Greenville</a></li>
+    	               <li><a href="#">Springfield</a></li>
+    	               <li><a href="stormcenter.html">Storm Center</a></li>
+    	               <li><a href="gallery-8.html">Gallery</a></li>
+                    </ul>		
+            </nav>
+    
+    <main>
+        <h2>Storm Center</h2>
+        
+        <form method="get" action="thanks.html">
+            <fieldset>
+           <legend>Report A Storm</legend>
+                <label class="top">Full Name*<input type="text" name="fullname" placeholder="Full Name" required></label>
+                <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com" ></label>
+                <label class="top">Zip Code*<input type="number" name="zipcode" placeholder="Zipcode" required></label>
+           </fieldset>
+           
+           <!--<fieldset><legend>Storm Information</legend>
+           
+            
+           </fieldset>-->
+           
+           <fieldset>
+               <legend>Storm Information</legend>
+               
+               <Label class="top">Date of Storm<input type="date" name="stormDate"></Label> 
+               
+               <label class="top">Storm Region
+               <select name="subject">
+                   <option value="">Please Select&#9662;</option>
+                   <option value="franklin">Franklin</option>
+                   <option value="greenville">Greenville</option>
+                   <option value="Springfield">Springfield</option>
+                   </select></label>
+               
+                <div>Storm Type</div>
+                    <label class="sbs">Storm Type</label>
+                        <input list="stormType">
+
+                            <datalist id="stormType">
+                            <option value="Flash Flood">
+                            <option value="Hail">
+                            <option value="Hurricane">
+                            <option value="Thuderstorm">
+                            <option value="Tornado">
+                            </datalist>
+               
+                <div>Storm Severity</div>
+                    <label>Rating (1 to 10)</label>
+                        <input type="range" list="tickmarks">
+
+                            <datalist id="tickmarks">
+                                <option value="0" label="0%">
+                                <option value="10">
+                                <option value="20">
+                                <option value="30">
+                                <option value="40">
+                                <option value="50" label="50%">
+                                <option value="60">
+                                <option value="70">
+                                <option value="80">
+                                <option value="90">
+                                <option value="100" label="100%">
+                            </datalist>
+		              <span id="ratingvalue">10</span><br>
+            
+            <div>Danger Level</div>
+                <Label class="sbs"><input type="radio" name="audience" value="yes">Yes</Label>
+                <Label class="sbs"><input type="radio" name="audience" value="maybe">Maybe</Label>
+                <Label class="sbs"><input type="radio" name="audience" value="no">No</Label>
+               
+               <label>Tell Us More About the Storm<textarea placeholder="Tells Us More About the Storm"></textarea></label>
+           </fieldset>
+           <input type="submit" value="Submit My Storm Report" class="submitBtn">
+        </form> 
+  
+    </main>
+    
+            <footer>
+                <section class="footer-bar">
+                    <h5>Thanks to</h5>
+                        <div >Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+                
+                        <div>Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+                            
+                        <div>Thanks to <a href="https://www.openweathermap.org">openweathermap.org </a> for supplying the realtime weather information</div></div></section>
+                    <br>
+        
+                <section class="contact">
+                    <h5>Contact Us</h5>
+			             <aside>
+                            <p class="footer-bar">Tri-City Weather Happenings | 1129 Bloomfield Way | Franklin | (207)-641-4924 | contact@tcwhappenings.com</p>
+			          </aside>
+			                 <p class="footer-bar">&copy; 2018 | Tri-City Weather Happenings | <span id="currendate"><script src="scripts/currentdate.js"></script></span></p>
+                </section>
+        
+            </footer>
+            <script src="scripts/scripts-9.js"></script>
+            <script src="scripts/windchill-8.js"></script>
+        </body>
+    
+</html>

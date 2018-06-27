@@ -1,0 +1,329 @@
+* {
+	box-sizing: border-box;
+    
+    
+}  /* This wildcard applies to all elements ensuring a box layout model */
+
+/* ------ BODY ----- */
+
+body {
+	font-size: 16px;
+	font-family: 'Playfair Display SC', serif;
+    font-family: 'Karla', sans-serif;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+/* ------ HEADER ------ */
+
+header, nav, main, footer {
+    margin: 0 auto;
+    max-width: 1024px;
+/* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*margin: 0  auto;*/
+}
+
+header h1 {
+    font-family: 'Playfair Display SC', serif;
+	color: #3f6bba;
+	font-size: 3.4rem;
+}
+
+/*header img {
+}*/
+
+ .subheading {
+    margin: 0 0 5 0;
+    padding: 0 auto;
+    font-size: 2rem;
+    color: #7185c6;
+}
+
+.caption {
+    font-size: .7rem;
+    color: #7185c6;
+}
+
+/* ------ NAV ------ */
+
+nav {
+    clear: both;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #111;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    /*padding: 0;*/
+    overflow: hidden;
+    background-color: #333;
+}
+
+li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+@media only screen and (max-width: 600px){
+nav ul.hide {
+    display:none;
+}
+}
+
+/* ------ MAIN ----- */
+
+/*main {
+}*/
+
+main h2 {
+    font-family: 'Playfair Display SC', serif;
+	color: #3f6bba;
+    font-size: 3rem;
+}
+
+/*main figure {
+	margin: 0 0 .2rem 2%;
+}*/
+
+main > img {
+    width: 100%;
+}
+
+/* ------ WEATHER SUMMARY ------ */
+
+.weather-summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.highlow {
+    
+}
+.current img {
+    width: 128px;  
+}
+
+.conditions h3 {
+    font-size: 2rem; 
+}
+
+/*#weathercondition {
+    font-size: 1.3rem; 
+}*/
+
+/* ------ FORCAST ----- */
+
+.forecast{
+    display: none;
+}
+
+/* ------ TABLE ------ */
+
+th {
+    padding: 2px;
+    border: 1px solid black;
+    background-color: #333;
+    color: whitesmoke;
+}
+
+td {
+    padding: 2px;
+    border: 1px solid black;
+}
+
+/* ------ ARTICLE ------ */
+
+article img {
+    float: left;
+    width: 45%;
+    margin: 10px;
+}
+
+#articletitle {
+    font-size: 2rem;
+    font-family: 'Playfair Display SC', serif;
+    color: #3f6bba;
+}
+
+.town-article {
+    display: block;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+/* ------ FOOTER ------ */
+
+footer {
+    display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+h5 {
+    font-size: 1.1rem;
+}
+
+.footer-bar{
+    font-family: 'Karla', sans-serif;
+    font-size: .7rem;  
+}
+
+/* ------ GALLERY ------- */
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    width: 100%;
+}
+
+div img {
+    box-shadow: 3px 2px 3px 2px #888888;
+}
+
+/* -------- FORM -------- */
+
+form fieldset {
+    margin: 2rem;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #445ba9;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,.1);
+}
+
+form label.sbs{
+    display: block;
+    padding: .75rem;
+    color: #555;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem; 
+}
+
+form label.top input:required {
+    border-left: orange solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: purple solid 6px;
+}
+
+/* -------- HOME PAGE -------- */
+
+.mainpage {padding: .35rem;}
+
+h2 {text-align:center;}
+
+.mainpage {
+	max-width: 600px;
+  margin: .5rem auto;
+	border:1px solid #bbb;
+  background-color: #e6e6e6;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainpage div {
+  display: flex;
+	flex-direction: column;
+    background-color: white;
+}
+
+.mainpage article:nth-child(odd) {
+	flex-direction: row-reverse;
+}
+
+.mainpage img {border:1px solid #000080; width: 280px;
+    align-self: center;
+}
+.town > image {
+    float: right;
+}
+
+.town .data {
+    float: left;
+}
+
+.data {background-color: white; color:#333;
+font-size: 1.2rem;}
+
+.datastyle {
+    font-family: baskerville serif;
+    font-size: 1.1rem;
+}
+
+.mainpage h3 {
+    font-family: baskerville serif;
+    font-size: 1.5rem;
+}
+
+.townInfo {
+    font-size: 1rem;
+}
