@@ -32,7 +32,7 @@
     	               <li><a href="franklin.html">Franklin</a></li>
     	               <li><a href="greenville.html">Greenville</a></li>
     	               <li><a href="springfield.html">Springfield</a></li>
-    	               <li><a href="stormcenter.html">Storm Center</a></li>
+    	               <li class="active"><a href="stormcenter.html">Storm Center</a></li>
     	               <li><a href="gallery.html">Gallery</a></li>
                     </ul>		
             </nav>
@@ -69,7 +69,7 @@
                
                 <div class="top">Storm Type</div>
                     <label class="sbs">Select the Storm Type</label>
-                        <input list="stormType">
+                        <input list="stormType" class="contentAlign">
 
                             <datalist id="stormType">
                             <option value="">Please Select&#9662;</option>
@@ -80,6 +80,7 @@
                             <option value="Thunderstorm">
                             <option value="Tornado">
                             </datalist>
+                        <br>
                
                 <div class="sbs">Storm Severity</div>
                     <label class="top">Rating (1 to 10)</label>
@@ -100,7 +101,7 @@
                             </datalist>
 		              <span id="ratingvalue" class="contentAlign">10</span><br>
             
-            <div class="sbs">Danger Level</div>
+            <div class="sbs">Are Within the Danger Zone?</div>
                 <Label class="sbs"><input type="radio" name="audience" value="yes">Yes</Label>
                 <Label class="sbs"><input type="radio" name="audience" value="maybe">Maybe</Label>
                 <Label class="sbs"><input type="radio" name="audience" value="no">No</Label>

@@ -21,18 +21,22 @@
     .town {
         width: 100%;
     }
+    
+    .resize {
+        width: 30%;
+    }
+    
     .mainpage  {
         flex-direction: row;
+        justify-content: space-around;
         max-width: 100%;
     }
     
     .mainpage > div {
-        flex-direction: row-reverse;
-        padding: 3rem;
-        margin: 4rem;*/
+        flex-direction: column;
     }
     
     .mainpage div:nth-child(odd){
-        flex-direction: row;
+        flex-direction: column;
     }
   }
