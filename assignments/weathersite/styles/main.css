@@ -104,11 +104,6 @@ nav ul.hide {
 /*main {
 }*/
 
-#headImg {
-    width: 100%;
-    height: 50%;
-}
-
 main h2 {
     font-family: 'Playfair Display SC', serif;
 	color: #3f6bba;
@@ -136,6 +131,9 @@ main > img {
 }
 .current img {
     width: 128px;  
+}
+.weather-summary h3{
+    font-size: 2.5rem;
 }
 
 .conditions h3 {
