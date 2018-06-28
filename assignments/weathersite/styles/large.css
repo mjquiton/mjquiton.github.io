@@ -3,6 +3,12 @@
    /* nav ul li a {
         padding: .6rem 1rem;
     }*/
+    
+    #weatherImage {
+    margin-top: 4rem;
+    /*max-width: 96px;*/
+    }
+    
     .gallery {
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 10px;
@@ -21,12 +27,12 @@
     }
     
     .mainpage > div {
-        flex-direction: column;
+        flex-direction: row-reverse;
         padding: 3rem;
-        margin: 4rem;
+        margin: 4rem;*/
     }
     
     .mainpage div:nth-child(odd){
-        flex-direction: column;
+        flex-direction: row;
     }
   }

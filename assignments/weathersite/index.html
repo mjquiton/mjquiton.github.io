@@ -16,7 +16,7 @@
 
             <header>
                 <div id="topBannerBox">
-                    <img id="weatherImage" src="images/weather.png" alt="tri-cities weather logo">
+                    <a href="index.html"><img id="weatherImage" src="images/weather.png" alt="tri-cities weather logo"></a>
                 
                     <div id="topBanner">
                         <h1 class="topHeader">Tri-City Weather Happenings</h1>
@@ -28,12 +28,12 @@
                 <nav>
                     <button onclick="toggleMenu()">&#9776;</button>
                     <ul id="primaryNav" class="hide">
-    	                <li><a href="index.html">Home</a></li>
-    	               <li><a href="franklin-8.html">Franklin</a></li>
-    	               <li><a href="#">Greenville</a></li>
-    	               <li><a href="#">Springfield</a></li>
+    	               <li><a href="index.html">Home</a></li>
+    	               <li><a href="franklin.html">Franklin</a></li>
+    	               <li><a href="greenville.html">Greenville</a></li>
+    	               <li><a href="springfield.html">Springfield</a></li>
     	               <li><a href="stormcenter.html">Storm Center</a></li>
-    	               <li><a href="gallery-8.html">Gallery</a></li>
+    	               <li><a href="gallery.html">Gallery</a></li>
                     </ul>		
             </nav>
     
@@ -61,8 +61,7 @@
 		<img src="images/gallery/mountainmist-small.jpg" alt="image 2">
 		<div class="data">
             <h3>Franklin City</h3>
-            <p class="datastyle">Town Stats</p>
-            <p class="townInfo">Motto: <span id="fmotto"></span></p>
+            <p class="townInfo"><span id="fmotto"></span></p>
             <p class="townInfo">Year Founded: <span id="fyear"></span></p>
             <p class="townInfo">Population: <span id="fpopulation"></span></p>
             <p class="townInfo">Average Rainfall: <span id="frainFall"></span></p>
@@ -74,8 +73,7 @@
 		<img src="images/gallery/sunnyfield-small.jpg" alt="image 3">
 		<div class="data">
             <h3>Greenville City</h3>
-            <p class="datastyle">Town Stats</p>
-            <p class="townInfo">Motto: <span id="gmotto"></span></p>
+            <p class="townInfo"><span id="gmotto"></span></p>
             <p class="townInfo">Year Founded: <span id="gyear"></span></p>
             <p class="townInfo">Population: <span id="gpopulation"></span></p>
             <p class="townInfo">Average Rainfall: <span id="grainFall"></span></p>
@@ -87,8 +85,7 @@
 		<img src="images/gallery/sunnymeadow-small.jpg" alt="image 4">
 		<div class="data">
             <h3>Springfield City</h3>
-            <p class="datastyle">Town Stats</p>
-            <p class="townInfo">Motto: <span id="smotto"></span></p>
+            <p class="townInfo"><span id="smotto"></span></p>
             <p class="townInfo">Year Founded: <span id="syear"></span></p>
             <p class="townInfo">Population: <span id="spopulation"></span></p>
             <p class="townInfo">Average Rainfall: <span id="srainFall"></span></p>
@@ -113,10 +110,12 @@
 			             <aside>
                             <p class="footer-bar">Tri-City Weather Happenings | 1129 Bloomfield Way | Franklin | (207)-641-4924 | contact@tcwhappenings.com</p>
 			          </aside>
-			                 <p class="footer-bar">&copy; 2018 | Tri-City Weather Happenings | <span id="currendate"><script src="scripts/currentdate.js"></script></span></p>
+			                 <p class="footer-bar">&copy; 2018 | Tri-City Weather Happenings | <span id="currendate"> <script src="scripts/currentdate.js"></script></span></p>
                 </section>
         
             </footer>
+            
+            <script src="scripts/inlcude.js"></script>
             
             <script src="scripts/scripts.js"></script>
             

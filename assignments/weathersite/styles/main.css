@@ -314,9 +314,9 @@ h2 {text-align:center;}
 .data {background-color: white; color:#333;
 font-size: 1.2rem;}
 
-.datastyle {
+#fmotto, #gmotto, #smotto {
     font-family: baskerville serif;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 
 .mainpage h3 {
