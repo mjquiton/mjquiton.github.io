@@ -2,11 +2,15 @@
 
     /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
     
+/*----NANIGATION----*/
+    
     nav button { display:none; 
     }  /* hamburger button does not need to be shown in the medium on up views */
     nav ul {
         flex-direction: row;
     }
+    
+    /*-----WEATHER SUMMARY-----*/
     
     #weatherImage{
     float: left;
@@ -27,6 +31,8 @@
 #weathercondition {
     float: inherit;  
 }
+ 
+/*------TABLE-----*/
     
 table {
      margin: auto;
@@ -53,14 +59,15 @@ li {
     }  /* show the 10-day forecast with the         medium view and up */
     
     
-
+/*------GALLERY------*/
 
  .gallery {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 10px;
 }
     
-
+/*------MAINPAGE------*/
+    
 .index {
   display: grid;
     grid-template-columns: 1fr 1fr;
@@ -68,18 +75,28 @@ li {
     width: 100%;
 }
 
-    .mainpage {
+.mainpage {
         flex-direction: column;
     }
     
-    .mainpage > div {
+.mainpage > div {
         flex-direction: row;
     }
     
-    .mainpage div:nth-child(odd){
+.mainpage div:nth-child(odd){
         flex-direction: row-reverse;
     }
-    .town .data {
+.town .data {
         float: none;
+    }
+    
+/*------FORM-----*/
+    
+.top, .sbs {
+    text-align: left;
+    }
+
+.contentAlign {
+        float: left;
     }
 }

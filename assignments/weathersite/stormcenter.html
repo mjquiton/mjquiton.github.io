@@ -67,21 +67,22 @@
                    <option value="Springfield">Springfield</option>
                    </select></label>
                
-                <div>Storm Type</div>
+                <div class="top">Storm Type</div>
                     <label class="sbs">Storm Type</label>
                         <input list="stormType">
 
                             <datalist id="stormType">
+                            <option value="">Please Select&#9662;</option>
                             <option value="Flash Flood">
                             <option value="Hail">
                             <option value="Hurricane">
-                            <option value="Thuderstorm">
                             <option value="Tornado">
+                            <option value="Thuderstorm">
                             </datalist>
                
-                <div>Storm Severity</div>
-                    <label>Rating (1 to 10)</label>
-                        <input type="range" list="tickmarks">
+                <div class="sbs">Storm Severity</div>
+                    <label class="top">Rating (1 to 10)</label>
+                        <input type="range" list="tickmarks" class="contentAlign">
 
                             <datalist id="tickmarks">
                                 <option value="0" label="0%">
@@ -96,14 +97,15 @@
                                 <option value="90">
                                 <option value="100" label="100%">
                             </datalist>
-		              <span id="ratingvalue">10</span><br>
+		              <span id="ratingvalue" class="contentAlign">10</span><br>
             
-            <div>Danger Level</div>
+            <div class="sbs">Danger Level</div>
                 <Label class="sbs"><input type="radio" name="audience" value="yes">Yes</Label>
                 <Label class="sbs"><input type="radio" name="audience" value="maybe">Maybe</Label>
                 <Label class="sbs"><input type="radio" name="audience" value="no">No</Label>
                
-               <label>Tell Us More About the Storm<textarea placeholder="Tells Us More About the Storm"></textarea></label>
+               <label class="sbs">
+                   <p class="sbs">Tell Us More About the Storm</p><textarea class="sbs" placeholder="Tells Us More About the Storm"></textarea></label>
            </fieldset>
            <input type="submit" value="Submit My Storm Report" class="submitBtn">
         </form> 
