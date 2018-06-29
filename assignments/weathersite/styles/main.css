@@ -40,9 +40,7 @@ header h1 {
 }*/
 
  .subheading {
-    margin: 0 0 5 0;
-    padding: 0 auto;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #7185c6;
 }
 
@@ -50,6 +48,11 @@ header h1 {
     font-size: .7rem;
     color: #7185c6;
 }
+
+ #weatherImage {
+    margin-top: 4rem;
+    width: 96px;
+    }
 
 /* ------ NAV ------ */
 

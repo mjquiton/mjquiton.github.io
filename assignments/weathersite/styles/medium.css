@@ -16,7 +16,7 @@
     float: left;
     margin-right: 10px;
     display: inline-flex;
-    max-width: 96px;
+    width: 128px;
 }
     
 .weather-summary {

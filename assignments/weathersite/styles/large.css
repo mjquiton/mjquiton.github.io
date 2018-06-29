@@ -4,11 +4,6 @@
         padding: .6rem 1rem;
     }*/
     
-    #weatherImage {
-    margin-top: 4rem;
-    /*max-width: 96px;*/
-    }
-    
     .gallery {
     grid-template-columns: 1fr 1fr 1fr;
     }
