@@ -63,8 +63,12 @@ li {
 
  .gallery {
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 10px;
+    grid-column-gap: 2rem;
 }
+ 
+.gallery img:hover:not(.active) {
+    box-shadow: 10px 10px 10px #51514f;
+    }
     
 /*------MAINPAGE------*/
     

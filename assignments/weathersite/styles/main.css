@@ -87,11 +87,12 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #7185c6;
+    color: black;
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #3f6bba;
 }
 @media only screen and (max-width: 600px){
 nav ul.hide {
