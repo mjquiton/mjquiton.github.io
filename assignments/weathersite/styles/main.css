@@ -220,23 +220,29 @@ div img {
 /* -------- FORM -------- */
 
 form fieldset {
-    margin: 2rem;
+    margin: auto;
     border: 1px solid #445ba9;
     border-radius: 10px;
     padding: .5rem 2%;
+    width: 50%;
+    box-shadow: 4px 5px 4px #445ba9;
+    margin-bottom: 2rem;
+    
 }
 
 form legend {
     color: #445ba9;
     margin: 0 1rem;
     padding: 0 .5rem;
+    font-size: 2rem;
 }
 
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
-    font-size: .8rem;
+    color: #445ba9;
+    font-size: 1.4rem;
+    border-radius: 1rem;
 }
 
 form label.top input, form label.top select {
@@ -270,11 +276,20 @@ form input.submitBtn {
 }
 
 form label.top input:required {
-    border-left: orange solid 6px;
+    border-left: #7185c6 solid 6px;
 }
 
 form label.top input:required:valid {
-    border-left: purple solid 6px;
+    border-left: #445ba9 solid 6px;
+}
+
+textarea {
+    width: 80%;
+    border-radius: .5rem;
+}
+
+.contentAlign {
+    border-radius: 4rem;
 }
 
 /* -------- HOME PAGE -------- */
