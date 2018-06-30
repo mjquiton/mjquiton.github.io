@@ -26,6 +26,17 @@
         max-width: 100%;
     }
     
+    .datastyle {
+        text-align:left;
+    }
+    
+    .mainpage h3 {
+        margin-bottom: .5rem;
+    }
+    #img {
+        margin-bottom: rem;
+    }
+    
     .mainpage > div {
         flex-direction: column;
     }
