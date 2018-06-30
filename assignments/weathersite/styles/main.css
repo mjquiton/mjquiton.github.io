@@ -138,6 +138,7 @@ main > img {
 }
 .weather-summary h3{
     font-size: 2.5rem;
+    margin-bottom: .5rem;
 }
 
 .conditions h3 {
@@ -157,14 +158,16 @@ main > img {
 /* ------ TABLE ------ */
 
 th {
-    padding: 2px;
-    border: 1px solid black;
+    padding: 5px;
+    margin: 20px;
+    //border: 2px solid black;
     background-color: #333;
     color: whitesmoke;
 }
 
 td {
-    padding: 2px;
+    padding: 15px;
+    margin: 20px;
     border: 1px solid black;
 }
 
@@ -200,6 +203,7 @@ footer {
 
 h5 {
     font-size: 1.1rem;
+    margin-bottom: .3rem;
 }
 
 .footer-bar{
@@ -348,4 +352,27 @@ font-size: 1.2rem;}
 
 .townInfo {
     font-size: 1rem;
+}
+
+/*------THANK YOU PAGE------*/
+
+.thanks {
+    font-size: 2.5rem;
+    color: #445ba9;
+}
+
+.thankyou {
+    font-size: 1.5rem;
+    color: #7185c6;
+}
+
+.thanks, .thankyou {
+    text-align: left;
+}
+
+.thankYou {
+    font-family: baskerville serif;
+    font-size: 1.1rem;
+    text-align: left;
+    color: #445ba9;
 }
