@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(function () {
     // All jQuery Code Goes Here
 
     /*$('li:first').css('background-color', 'rgb(248, 95, 95)');
@@ -19,10 +19,7 @@ $(document).ready(function () {
     
     $('li:empty').css('background-color', 'rgb(248, 95, 95)');
     
-    $('li:has("h4")').css('background-color', 'rgb(248, 95, 95)');
+    $('li:has("h4")').css('background-color', 'rgb(248, 95, 95)');*/
     
-    $('li:nth-child(3)').css('background-color', 'rgb(248, 95, 95)');*/
-    
-    
-
+    $('li:nth-child(3)').css('background-color', 'rgb(248, 95, 95)');
 })
