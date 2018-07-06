@@ -4,7 +4,11 @@ $(document).ready(function () {
     $('#alcoveLogo').css('opacity', 0.4);
 
     $('.servicesBtn').css('color', '#FFF');
-
+    
+    $('.coreValues').prepend("<li><strong>This Is Brand New!!</strong></li>");
+    
+    $("<li><strong>This Is Great!!</strong></li>").prependTo('.coreValues');
+    
     /*$('button').css('border', '1px solid red');
 
     $('h2').css('border', '1px solid red');
@@ -25,6 +29,5 @@ $(document).ready(function () {
 
     $('.navigation > li:eq(2)').parent().css('opacity', 0.3);
     $('.servicesBtn').closest('div').css('background-color', 'rgba(255, 0, 0, 0.2)');*/
-
 
 })

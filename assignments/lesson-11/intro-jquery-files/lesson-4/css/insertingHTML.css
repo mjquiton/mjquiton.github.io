@@ -44,6 +44,12 @@ button#RightToLeft {
 	padding: 10px;
 }
 
+button {
+    padding: 3rem;
+    font-size: 1.3rem;
+    border-radius: .5rem;
+    background-color: whitesmoke;
+}
 .box2	{
 	position: absolute;
 	border: 1px solid rgba(0,0,0,0.3);
