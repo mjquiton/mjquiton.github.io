@@ -12,5 +12,16 @@ $(function () {
             inputFields.css('background-color', 'rgb(255, 0, 0)');
         }
     }
+    
+    
+    function fillEmpty(){
+         var nameVal = $('input[name="nameVal"]');
+        
+        if(nameVal.val() == ''){
+            nameVal.val('John Doe');
+        }
+    }
     $('#ReqAQuoteBtn').click(toggleStyle);
+    
+    $('#ReqAQuoteBtn').click(fillEmpty);
 })
