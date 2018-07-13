@@ -1,0 +1,20 @@
+@media only screen and (min-width: 1024px ) {
+    
+    
+    
+    #topBan {
+    background-color: #3176B2;
+    margin-left: .7rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+    
+    h1 {
+    font-family: 'Special Elite', cursive;
+    font-size: 5rem;
+    color: whitesmoke;
+    margin-top: 4rem;
+}
+    
+    
+}
