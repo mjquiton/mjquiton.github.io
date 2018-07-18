@@ -31,18 +31,36 @@
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
             <li><a href="index.html">Home</a></li>
-            <li><a href="">Adventure Tours</a></li>
+            <li><a href="tour.html">Adventure Tours</a></li>
             <li><a href="">Events</a></li>
-            <li><a href="">Sales</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="contact.html"  class="active">Contact Us</a></li>
+            <li><a href="sale.html">Sales</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li class="active"><a href="contact.html">Contact Us</a></li>
         </ul>
     </nav>
 
     <main>
-        <img src="images/header-image-large.jpg" alt="Mountain Range" srcset="images/header-image-small.jpg 600w, images/header-image-medium.jpg 900w, images/header-image-large.jpg 1024w" sizes="(max-width: 320px) 280px,
-                (max-width: 480px) 440px,
-                800px">
+
+        <div class="contactInfo">
+            <h2 class="contact">Mountain Spoke Co.</h2>
+
+            <div>
+                <p class="address">3950 Valley Commons Dr</p>
+                <p class="address">Bozeman, MT 59718</p>
+            </div>
+
+            <div>
+                <p class="phone">(406) 548-3006</p>
+            </div>
+
+            <div>
+                <p class="email">contact@mtspoke.com</p>
+            </div>
+
+            <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2787.9316277611006!2d-111.09290618462924!3d45.67227287910401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5345459ab72cb6df%3A0xbb98968f9648ea88!2s3950+Valley+Commons+Dr%2C+Bozeman%2C+MT+59718!5e0!3m2!1sen!2sus!4v1531904198049" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>"</div>
+
+        </div>
+
 
     </main>
 
@@ -54,17 +72,12 @@
             <a href="">Overview Video</a>
         </div>
         <div>
-            <p class="footer-bar">The Mounain Spoke Co. | 3950 Valley Commons Dr | Bozeman, MT | (406) 548-3006 | contact@mtspoke.com</p>
-            <div>
-
-                <p class="footer-bar">The Mounain Spoke Co. | 3950 Valley Commons Dr | Bozeman, MT | (406) 548-3006 | contact@mtspoke.com</p>
-            </div>
-
-            <div class="copyright">
-                <p>&copy; 2018 | The Mountain Spoke Company | <span id="currendate"><script src="scripts/current-date.js"></script></span></p>
-            </div>
+            <p class="footer-bar">The Mounain Spoke Co. &bull; 3950 Valley Commons Dr &bull; Bozeman, MT &bull; (406) 548-3006 &bull; contact@mtspoke.com | &copy; 2018 &bull; The Mountain Spoke Company&#x02122; &bull; <span id="currendate"><script src="scripts/current-date.js"></script></span>
+            </p>
         </div>
+
     </footer>
+
 
 
     <script src="scripts/hamburger.js"></script>

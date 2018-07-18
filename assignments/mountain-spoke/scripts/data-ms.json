@@ -1,0 +1,119 @@
+"tuneUps": [
+    {
+        "name": "Quick Tune",
+        "price": "$80",
+        "Description": [
+      "Adjust shifting, brakes, headset, bottom bracket and hubs, true wheels (lateral and dish), bolt/torque check “safety check,” inflate tires, lube chain, clean bike (drivetrain cleaning not included)."
+    ]
+  },
+
+    {
+        "name": "Standard Tune",
+        "price": "$120",
+        "Description": [
+      "Adjust shifting, brakes, headset, bottom bracket and hubs, true wheel (lateral and dish), bolt/torque check “safety check,” inflate tires, clean bike, lube chain and grease parts as needed, full drivetrain cleaning."
+    ]
+  },
+
+    {
+        "name": "Deluxe Tune Road",
+        "price": "$200",
+        "Description": [
+      "Full bike disassemble and full reassemble with grease and lube where needed, full drivetrain cleaning, wheels trued (lateral, dish and round), install new cables and housing, bolt/torque check “safety check,” inflate tires, repacking of all applicable bearings, new parts get free install, suspension work and hydraulic brake bleeds may be additional labor."
+    ]
+  },
+
+    {
+        "name": "Deluxe Tune Mountain",
+        "price": "$350",
+        "Description": [
+      "Full bike disassemble and full reassemble with grease and lube as needed. Full drive train cleaning. True wheels (lateral, dish and round). Install new cables and housing. Bolt/torque check, “safety check,” Inflate tires. Repack of all applicable bearings. Bleed of hydraulic disc brakes.  New parts get free install. Suspension work may be additional labor."
+    ]
+  },
+
+    {
+        "name": "Drivetrain Cleaning",
+        "price": "$80-150",
+        "Description": [
+      "Remove drivetrain for major cleaning, reinstall and adjust drivetrain, lube and grease as needed, new cables and housing are extra (but a good time for this to happen)."
+    ]
+  },
+
+    {
+        "name": "Out of the Box Build",
+        "price": "$200",
+        "Description": [
+      "Full build from the box"
+    ]
+  },
+
+    {
+        "name": "Pro Build",
+        "price": "$200",
+        "Description": [
+      "Full suspension: $200"
+    ]
+  },
+
+    {
+        "name": "Box Bike",
+        "price": "$80",
+        "Description": [
+      "Box bike for shipping"
+    ]
+  },
+ ]
+
+"repairs": [
+    {
+        "name": "Tire Tube: Flat Fix",
+        "price": "$15",
+    },
+
+    {
+        "name": "Tire Tube: Tubeless Install",
+        "price": "$30",
+  },
+
+    {
+        "name": "Brakes: Adjustment",
+        "price": "$20",
+    },
+
+    {
+        "name": "Brakes: Bleed",
+        "price": "$35",
+  },
+
+    {
+        "name": "Suspension: Rear Shock Overhaul",
+        "price": "$40",
+  },
+
+    {
+        "name": "Suspension: Fork Overhaul",
+        "price": "$80",
+  },
+
+    {
+        "name": "Derailleur: Adjustment",
+        "price": "$20",
+    },
+
+    {
+        "name": "Chain Install",
+        "price": "$15",
+  },
+    {
+        "name": "Wheel: True",
+        "price": "$20",
+  },
+    {
+        "name": "Wheel: Build",
+        "price": "$80",
+  },
+    {
+        "name": "Hourly Shop Rate",
+        "price": "$55",
+  },
+ ]

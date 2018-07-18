@@ -30,12 +30,12 @@
     <nav>
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="">Adventure Tours</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tour.html">Adventure Tours</a></li>
             <li><a href="">Events</a></li>
-            <li><a href="">Sales</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Contact Us</a></li>
+            <li><a href="sale.html">Sales</a></li>
+            <li class="active"><a href="service.html">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
         </ul>
     </nav>
 
@@ -55,19 +55,19 @@
                     <th>Description</th>
                 </tr>
                 <tr>
-                    <td>Quick Tune</td>
-                    <td>$80</td>
-                    <td>Adjust shifting, brakes, headset, bottom bracket and hubs, true wheels (lateral and dish), bolt/torque check "safety check", inflate tires, lube chain, clean bike (drivetrain cleaning not included).</td>
+                    <td id="qTune"></td>
+                    <td id="qPrice"></td>
+                    <td id="qDesc">Adjust shifting, brakes, headset, bottom bracket and hubs, true wheels (lateral and dish), bolt/torque check "safety check", inflate tires, lube chain, clean bike (drivetrain cleaning not included).</td>
                 </tr>
                 <tr>
-                    <td>Standard Tune</td>
-                    <td>$120</td>
-                    <td>Adjust shifting, brakes, headset, bottom bracket and hubs, true wheel (lateral and dish), bolt/torque check "safety check,” inflate tires, clean bike, lube chain and grease parts as needed, full drivetrain cleaning.</td>
+                    <td id="sTune">Standard Tune</td>
+                    <td id="sPrice">$120</td>
+                    <td id="sDesc">Adjust shifting, brakes, headset, bottom bracket and hubs, true wheel (lateral and dish), bolt/torque check "safety check,” inflate tires, clean bike, lube chain and grease parts as needed, full drivetrain cleaning.</td>
                 </tr>
                 <tr>
-                    <td>Deluxe Tune Road</td>
-                    <td>$200</td>
-                    <td>Full bike disassemble and full reassemble with grease and lube where needed, full drivetrain cleaning, wheels trued (lateral, dish and round), install new cables and housing, bolt/torque check "safety check," inflate tires, repacking of all applicable bearings, new parts get free install, suspension work and hydraulic brake bleeds may be additional labor.</td>
+                    <td id="dTune">Deluxe Tune Road</td>
+                    <td id="dPrice">$200</td>
+                    <td id="dDesc">Full bike disassemble and full reassemble with grease and lube where needed, full drivetrain cleaning, wheels trued (lateral, dish and round), install new cables and housing, bolt/torque check "safety check," inflate tires, repacking of all applicable bearings, new parts get free install, suspension work and hydraulic brake bleeds may be additional labor.</td>
                 </tr>
                 <tr>
                     <td>Deluxe Tune Mountain</td>
@@ -154,7 +154,7 @@
 
     <footer>
         <div class="navbar">
-            <a href="index-ms.html" class="active">Home</a>
+            <a href="index-ms.html">Home</a>
             <a href="resources.html">Resources</a>
             <a href="contact.html">Contact Us</a>
             <a href="">Overview Video</a>
@@ -168,6 +168,7 @@
 
 
     <script src="scripts/hamburger.js"></script>
+    <sript src="scripts/service-ms.js"></sript>
 </body>
 
 </html>
