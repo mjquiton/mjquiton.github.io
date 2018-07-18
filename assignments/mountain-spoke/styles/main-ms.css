@@ -15,7 +15,7 @@ body {
     align-items: center;
     align-content: center;
     text-align: left;
-    background-color: #B2925F;
+    background-color: #A0AEBA;
 }
 
 /*-----HEADER-----*/
@@ -50,6 +50,10 @@ h1 {
     margin-top: 4rem;
 }
 
+.headImg {
+    width: 100%;
+    
+}
 /*------NAV-----*/
 
 nav {
@@ -74,7 +78,7 @@ nav ul {
     background-color: #123F65;
 }
 
-li a {
+nav li a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -104,6 +108,55 @@ li a:hover:not(.active) {
 
 /*-----MAIN-----*/
 
+ .mainClickImg {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    width: 100%;
+    margin-left: 3rem
+}
+
+/*------SERVICES PAGE-----*/
+
+.wp-table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.wp-table tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+.wp-table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.wp-table th:first-child, 
+.wp-table td:first-child {
+    padding-left: 16px;
+}
+
+
+.wp-table td, 
+.wp-table th {
+    padding: 8px 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+}
+
+.wp-table th {
+    font-weight: bold;
+}
+ 
+.wp-table {
+    font-size: 13px!important;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+}
+
 /*-----FORM-----*/
 
 /*-----FOOTER-----*/
@@ -118,22 +171,17 @@ footer {
 
 .footer-bar, .contact, .resources, .copyright {
     font-family: 'EB Garamond', serif;
-    font-size: .7rem;
     background-color: #3176B2;
     color: lightgray;
     text-decoration: none;
 }
 
 .footer-bar, .contact, .resources {
-    font-size: .9rem;
+    /*font-size: .9rem;*/
 }
 
 #footerLinks {
-    float: right;
-}
-
-.copyright, footer-bar {
-    float: left;
+    /*float: right;*/
 }
 
 /*------BOTTOM NAV------*/
@@ -143,7 +191,7 @@ footer {
 .navbar {
     background-color: #123F65;
     overflow: hidden;
-    position: fixed;
+    /*position: fixed;*/
     bottom: 0;
     width: 100%;
 }

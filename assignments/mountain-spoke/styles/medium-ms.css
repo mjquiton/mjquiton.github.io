@@ -30,4 +30,12 @@
     .footer-bar, .contact, .resources, .copyright {
         padding: 1.2rem;
     }
+/*-----MAIN-----*/
+    
+    .mainClickImg {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
+    margin-left: 12rem
+}
+    
 }
