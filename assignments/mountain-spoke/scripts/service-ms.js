@@ -1,21 +1,21 @@
-let town = new XMLHttpRequest();
-let townURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+let bike = new XMLHttpRequest();
+let bikeURL = 'assignments/mountain-spoke/data/data-ms.json';
 
-town.open('GET', townURL, true);
-town.responseType = 'json';
-town.send();
+bike.open('GET', bikeURL, true);
+bike.responseType = 'json';
+bike.send();
 
-town.onload = function(){
-   var towninfo = town.response;
+bike.onload = function(){
+   var bikeinfo = bike.response;
     
-    var frankmotto = towninfo.towns[0].motto;
-    document.getElementById("fmotto").innerHTML = frankmotto;
+    var bikequick = bikeinfo.bikes[0].service;
+    document.getElementById("qTune").innerHTML = bikequick;
     
-    var frankyear = towninfo.towns[0].yearFounded;
-    document.getElementById("fyear").innerHTML = frankyear;
+    var quickprice = towninfo.bikes[0].price;
+    document.getElementById("qPrice").innerHTML = quickprice;
     
-    var frankpop = towninfo.towns[0].currentPopulation;
-    document.getElementById("fpopulation").innerHTML = frankpop;
+    var quickdesc = towninfo.bikes[0].description;
+    document.getElementById("qDesc").innerHTML = quickdesc;
     
     var frankrain = towninfo.towns[0].averageRainfall;
     document.getElementById("frainFall").innerHTML = frankrain;

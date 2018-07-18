@@ -52,8 +52,9 @@ h1 {
 
 .headImg {
     width: 100%;
-    
+
 }
+
 /*------NAV-----*/
 
 nav {
@@ -108,12 +109,16 @@ li a:hover:not(.active) {
 
 /*-----MAIN-----*/
 
- .mainClickImg {
+.mainClickImg {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
     width: 100%;
     margin-left: 3rem
+}
+
+.clickImg {
+    width: 75%;
 }
 
 /*------SERVICES PAGE-----*/
@@ -130,13 +135,13 @@ li a:hover:not(.active) {
     border-bottom: 1px solid #ddd;
 }
 
-.wp-table th:first-child, 
+.wp-table th:first-child,
 .wp-table td:first-child {
     padding-left: 16px;
 }
 
 
-.wp-table td, 
+.wp-table td,
 .wp-table th {
     padding: 8px 8px;
     display: table-cell;
@@ -147,9 +152,9 @@ li a:hover:not(.active) {
 .wp-table th {
     font-weight: bold;
 }
- 
+
 .wp-table {
-    font-size: 13px!important;
+    font-size: 13px !important;
     border: 1px solid #ccc;
     border-collapse: collapse;
     border-spacing: 0;
@@ -169,14 +174,19 @@ footer {
     height: 10rem;
 }
 
-.footer-bar, .contact, .resources, .copyright {
+.footer-bar,
+.contact,
+.resources,
+.copyright {
     font-family: 'EB Garamond', serif;
     background-color: #3176B2;
     color: lightgray;
     text-decoration: none;
 }
 
-.footer-bar, .contact, .resources {
+.footer-bar,
+.contact,
+.resources {
     /*font-size: .9rem;*/
 }
 
@@ -210,6 +220,7 @@ footer {
 }
 
 /* Change the color of links on hover */
+
 .navbar a:hover {
     background-color: #5FB4FE;
     color: black;

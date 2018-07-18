@@ -18,8 +18,10 @@
 
     /*------MAIN-----*/
     .mainClickImg {
-        grid-template-columns: 1fr 1fr 1fr;
-        margin-left: 2rem
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        
     }
 
     /*------FOOTER-----*/
