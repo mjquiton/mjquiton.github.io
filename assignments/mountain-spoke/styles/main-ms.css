@@ -121,6 +121,37 @@ li a:hover:not(.active) {
     width: 75%;
 }
 
+/*-----ADVENTURE TOURS PAGE-----*/
+
+#tourTitle, .tourCaption {
+    font-family: 'Libre Baskerville', serif;
+    color: #123F65;
+    text-align: center;
+}
+
+#tourTitle {
+    font-size: 3rem;
+}
+
+.tourCaption {
+    font-size: 1.5rem;
+}
+
+.tourDescription {
+    font-size: 1.2rem; 
+}
+
+.tourDescription, .tourExperience, .tourPrice {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem;
+    text-align: left;
+    color: #123F65;
+    
+}
+.tourPrice {
+    font-size: .9rem;
+}
+
 /*------SERVICES PAGE-----*/
 
 .wp-table tr:nth-child(odd) {
