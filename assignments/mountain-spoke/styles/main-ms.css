@@ -267,3 +267,88 @@ footer {
 /*-----HOME PAGE----*/
 
 /*-----THANK YOU PAGE----*/
+
+/*------FORM-----*/
+
+#continentalTitle {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2rem;
+    color: #123F65;
+    text-align: center;
+}
+
+.formSection {
+    font-family: 'Quicksand', sans-serif;
+}
+
+form fieldset {
+    margin: auto;
+    border: 1px solid #123F65;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    width: 50%;
+    box-shadow: 4px 5px 4px #123F65;
+    margin-bottom: 2rem;
+    
+}
+
+form legend {
+    color: #123F65;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 2rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #123F65;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+}
+
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,.1);
+}
+
+form label.sbs{
+    display: block;
+    padding: .75rem;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem; 
+}
+
+form label.top input:required {
+    border-left: #3176B2 solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: #123F65 solid 6px;
+}
+
+textarea {
+    width: 80%;
+    border-radius: .5rem;
+}
+
+.contentAlign {
+    border-radius: 4rem;
+}
+

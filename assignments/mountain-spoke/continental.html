@@ -43,41 +43,42 @@
         <img class="headImg" src="images/clouds-daylight-landscape-large-2.jpg" alt="Mountain Range" srcset="images/clouds-daylight-landscape-small-2.jpg 600w, images/clouds-daylight-landscape-medium-2.jpg 900w, images/clouds-daylight-landscape-large-2.jpg 1024w" sizes="(max-width: 320px) 280px,(max-width: 480px) 440px, 800px">
 
 
-        <h2>Cycle the Continental Divide</h2>
-        
+        <h2 id="continentalTitle">Cycle the Continental Divide</h2>
+
         <form method="get" action="thanks.html">
             <fieldset>
-           <legend>Registrant Contact Information</legend>
-                
+                <legend class="formSection">Registrant Contact Information</legend>
+
                 <label class="top">Full Name*<input type="text" name="fullname" placeholder="Full Name" required></label>
-                
+
                 <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
-                
+
                 <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                
-                <Label class="top">Date of Birth*<input type="date" name="bithDate" required></Label><!-- unable to do anything about this warning at this time --> 
-                
+
+                <Label class="top">Date of Birth*<input type="date" name="bithDate" required></Label>
+                <!-- unable to do anything about this warning at this time -->
+
                 <label class="top">Resident State/Country*<input type="text" name="state" placeholder="Resident state/country" required></label>
-                
-           </fieldset>
-           
-           <fieldset>
-               <legend>Registration Information</legend>
-               
-               <label class="top">Storm Region<select name="subject">
+
+            </fieldset>
+
+            <fieldset>
+                <legend class="formSection">Registration Information</legend>
+
+                <label class="top">Choose Event Level<select name="subject">
                    <option value="">Please Select&#9662;</option>
-                   <option value="franklin">Franklin</option>
-                   <option value="greenville">Greenville</option>
-                   <option value="Springfield">Springfield</option>
+                   <option value="franklin">Beginner</option>
+                   <option value="greenville">Intermediate</option>
+                   <option value="Springfield">Expert</option>
                    </select></label>
-               
-                        <br>
-               
-               <label class="sbs">Special Accomodations/Comments</label>
-                   <textarea class="sbs" rows="10" placeholder="Special Accomodations/Comments"></textarea>
-           </fieldset>
-           <input type="submit" value="Submit My Registration" class="submitBtn">
-        </form> 
+
+                <br>
+
+                <label class="sbs">Special Accomodations/Comments</label>
+                <textarea class="sbs" rows="10" placeholder="Special Accomodations/Comments"></textarea>
+            </fieldset>
+            <input type="submit" value="Submit My Registration" class="submitBtn">
+        </form>
 
     </main>
 
