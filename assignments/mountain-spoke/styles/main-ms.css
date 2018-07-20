@@ -172,8 +172,7 @@ li a:hover:not(.active) {
 }
 
 
-.wp-table td,
-.wp-table th {
+.wp-table td, .wp-table th {
     padding: 8px 8px;
     display: table-cell;
     text-align: left;
@@ -185,7 +184,8 @@ li a:hover:not(.active) {
 }
 
 .wp-table {
-    font-size: 13px !important;
+    font-family: 'Quicksand', sans-serif;
+    font-size: .9rem !important;
     border: 1px solid #ccc;
     border-collapse: collapse;
     border-spacing: 0;
@@ -193,77 +193,23 @@ li a:hover:not(.active) {
     display: table;
 }
 
-/*-----FORM-----*/
-
-/*-----FOOTER-----*/
-
-footer {
-    float: center;
-    text-align: justify;
-    background-color: #123F65;
-    width: 100%;
-    height: 10rem;
-}
-
-.footer-bar,
-.contact,
-.resources,
-.copyright {
-    font-family: 'EB Garamond', serif;
-    background-color: #3176B2;
-    color: lightgray;
-    text-decoration: none;
-}
-
-.footer-bar,
-.contact,
-.resources {
-    /*font-size: .9rem;*/
-}
-
-#footerLinks {
-    /*float: right;*/
-}
-
-/*------BOTTOM NAV------*/
-
-/* Place the navbar at the bottom of the page, and make it stick */
-
-.navbar {
-    background-color: #123F65;
-    overflow: hidden;
-    /*position: fixed;*/
-    bottom: 0;
-    width: 100%;
-}
-
-/* Style the links inside the navigation bar */
-
-.navbar a {
-    float: left;
-    display: block;
-    color: whitesmoke;
+.serviceTitle, .serviceSubHead {
+    font-family: 'Libre Baskerville', serif;
+    color: #123F65;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: 'EB Garamond', serif;
-    font-size: 17px;
 }
 
-/* Change the color of links on hover */
-
-.navbar a:hover {
-    background-color: #5FB4FE;
-    color: black;
+.serviceTitle {
+    font-size: 3rem;
 }
 
-/* Add a color to the active/current link */
-
-.navbar a.active {
-    background-color: #3176B2;
-    color: white;
+.serviceSubHead {
+    font-size: 1.7rem;
 }
 
+.tablehead {
+    font-size: 1.5rem;
+}
 /*-----HOME PAGE----*/
 
 .mainCaption {
@@ -283,6 +229,27 @@ footer {
 }
 
 /*-----THANK YOU PAGE----*/
+
+.thanks, .thankYou, .thankyou {
+    font-family: 'Libre Baskerville', serif;
+    color: #123F65;
+    text-align: center;
+}
+
+.thanks {
+    font-size: 3.5rem;
+}
+
+.thankyou {
+    /*font-family: 'Quicksand', sans-serif;*/
+    /*text-align: left;*/
+    font-size: 1.3rem;
+    /*color: #123F65;*/
+}
+
+.thankYou {
+    font-size: 1.7rem;
+}
 
 /*------FORM-----*/
 
@@ -368,3 +335,80 @@ textarea {
     border-radius: 4rem;
 }
 
+/*------CONTACT PAGE------*/
+
+#mountain, .mountain {
+   font-family: 'Libre Baskerville', serif; 
+    color: #123F65
+}
+
+#mountain {
+    font-size: 2.5rem;
+}
+
+.mountain {
+    font-size: 1.2rem;
+}
+
+/*-----FOOTER-----*/
+
+footer {
+    text-align: justify;
+    background-color: #123F65;
+    width: 100%;
+    height: 10rem;
+}
+
+.footer-bar, .contact, .resources, .copyright {
+    font-family: 'EB Garamond', serif;
+    background-color: #3176B2;
+    color: lightgray;
+    text-decoration: none;
+}
+
+.footer-bar, .contact, .resources {
+    /*font-size: .9rem;*/
+}
+
+#footerLinks {
+    /*float: right;*/
+}
+
+/*------BOTTOM NAV------*/
+
+/* Place the navbar at the bottom of the page, and make it stick */
+
+.navbar {
+    background-color: #123F65;
+    overflow: hidden;
+    /*position: fixed;*/
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+
+.navbar a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'EB Garamond', serif;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+
+.navbar a:hover {
+    background-color: #5FB4FE;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+
+.navbar a.active {
+    background-color: #3176B2;
+    color: white;
+}
