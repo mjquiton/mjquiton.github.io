@@ -35,8 +35,13 @@
     .mainClickImg {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 2rem;
-        grid-row-gap: 2rem;
-    margin-left: 3rem
+    grid-row-gap: 2rem;
+}
+
+/*------TOUR PAGE-----*/
+    
+    .tourClickImg {
+    grid-template-columns: 1fr 1fr 1fr;
 }
     
 }
