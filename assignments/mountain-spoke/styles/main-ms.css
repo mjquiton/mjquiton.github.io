@@ -109,10 +109,31 @@ li a:hover:not(.active) {
 
 /*-----MAIN-----*/
 
+#race,
+.racedesc,
+#continentalTitle,
+#entrance,
+#entranceDesc,
+#mountain,
+.mountain,
+#tourTitle,
+.tourCaption,
+.serviceTitle,
+.serviceSubHead,
+.thanks,
+.thankYou,
+.thankyou,
+.mainCaption {
+    font-family: 'Libre Baskerville', serif;
+    color: #123F65;
+}
+
+
 .mainClickImg {
     display: grid;
     grid-template-columns: 1fr;
     grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
     padding: 3rem;
     justify-content: center;
     width: 100%;
@@ -122,24 +143,34 @@ li a:hover:not(.active) {
     width: 75%;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*-----ADVENTURE TOURS PAGE-----*/
 
 #tourTitle,
-.tourCaption {
-    font-family: 'Libre Baskerville', serif;
-    color: #123F65;
+.tourCaption,
+.serviceTitle,
+.serviceSubHead,
+.thanks,
+.thankYou,
+.thankyou {
     text-align: center;
 }
 
-#tourTitle {
+#tourTitle, .serviceTitle {
     font-size: 3rem;
 }
 
-.tourCaption {
+.tourCaption,
+.tablehead,
+.mainCaption,
+#entrance {
     font-size: 1.5rem;
 }
 
-.tourDescription {
+.tourDescription, #entranceDesc, .mountain {
     font-size: 1.2rem;
 }
 
@@ -199,45 +230,28 @@ li a:hover:not(.active) {
     display: table;
 }
 
-.serviceTitle,
-.serviceSubHead {
-    font-family: 'Libre Baskerville', serif;
-    color: #123F65;
-    text-align: center;
-}
-
-.serviceTitle {
-    font-size: 3rem;
-}
-
-.serviceSubHead {
+.serviceSubHead, .thankYou {
     font-size: 1.7rem;
-}
-
-.tablehead {
-    font-size: 1.5rem;
 }
 
 /*-----HOME PAGE----*/
 
-.mainCaption {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 1.5rem;
-    color: #123F65;
-}
 
 #continentBtn {
     font-family: 'Libre Baskerville', serif;
-    max-width: 20rem;
+    width: 10rem;
     border-radius: .8rem;
     background-color: #333;
     color: whitesmoke;
-    padding: 1.5rem;
-    font-size: 1.5rem;
+    padding: .8rem;
 }
 
+#continentBtn:hover {
+    background-color: #123F65;
+}
 
 /*-----EVENTS PAGE------*/
+
 
 #continentalTitle {
     font-size: 4rem;
@@ -255,14 +269,6 @@ li a:hover:not(.active) {
 
 }
 
-#race,
-.racedesc,
-#continentalTitle {
-    font-family: 'Libre Baskerville', serif;
-    color: #123F65;
-    box-shadow: 5px 10px #3176B2;
-}
-
 /*------TOUR PAGE-----*/
 
 .tourClickImg {
@@ -277,32 +283,18 @@ li a:hover:not(.active) {
 
 /*-----THANK YOU PAGE----*/
 
-.thanks,
-.thankYou,
-.thankyou {
-    font-family: 'Libre Baskerville', serif;
-    color: #123F65;
-    text-align: center;
-}
 
 .thanks {
     font-size: 3.5rem;
 }
 
 .thankyou {
-    /*font-family: 'Quicksand', sans-serif;*/
-    /*text-align: left;*/
     font-size: 1.3rem;
-    /*color: #123F65;*/
-}
-
-.thankYou {
-    font-size: 1.7rem;
 }
 
 /*------FORM-----*/
 
-.formSection {
+/*.formSection {
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -377,23 +369,58 @@ textarea {
 }
 
 .contentAlign {
-    border-radius: 4rem;
+    border-radius: 4rem;*/
 }
 
 /*------CONTACT PAGE------*/
 
-#mountain,
-.mountain {
-    font-family: 'Libre Baskerville', serif;
-    color: #123F65
-}
 
 #mountain {
     font-size: 2.5rem;
 }
 
-.mountain {
-    font-size: 1.2rem;
+/* Style inputs with type="text", select elements and textareas */
+
+input[type=text],
+input[type=tel],
+input[type=text],
+input[type=date],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+    background-color: #333;
+    color: whitesmoke;
+    padding: 1.5rem 4rem;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
+    background-color: #123F65;
+}
+
+/* Add a background color and some padding around the form */
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
 
 /*-----FOOTER-----*/
@@ -413,16 +440,6 @@ footer {
     background-color: #3176B2;
     color: lightgray;
     text-decoration: none;
-}
-
-.footer-bar,
-.contact,
-.resources {
-    /*font-size: .9rem;*/
-}
-
-#footerLinks {
-    /*float: right;*/
 }
 
 /*------BOTTOM NAV------*/

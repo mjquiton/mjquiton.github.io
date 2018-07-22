@@ -49,6 +49,10 @@
         
         <p id="race">September 18 - 23</p>
         
+        <p id="entrance">Entrance Fee: $225/person</p>
+        <p id="entranceDesc">Entrance fee includes:
+        Commemorative T-Shirt, commemorative water bottle, lodging, snacks and dinner each night of the race.</p>
+        
         <p class="race">Race Route: Beginning in Bozeman, MT</p>
         <p class="race"> Check point in Manhattan, MT</p> 
         <p class="race"> Check point in Lombard, MT</p>
@@ -67,17 +71,20 @@
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend class="formSection">Registrant Contact Information</legend>
+                
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name">
 
-                <label class="top">Full Name*<input type="text" name="fullname" placeholder="Full Name" required></label>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name">
 
-                <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
-
-                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
-
-                <Label class="top">Date of Birth*<input type="date" name="bithDate" required></Label>
-                <!-- unable to do anything about this warning at this time -->
-
-                <label class="top">Resident State/Country*<input type="text" name="state" placeholder="Resident state/country" required></label>
+                <label>Email*<input type="email" name="email" placeholder="someone@gmail.com"></label>
+                
+                <label>Phone Number*<input type="tel"name="phone" placeholder="1235551234" required></label>
+            
+                <Label>Date of Birth*<input type="date" name="birthDate" required></Label>
+            
+                <label>Resident State/Country*<input type="text" name="state" placeholder="Resident state/country" required></label>
 
             </fieldset>
 
@@ -93,10 +100,14 @@
 
                 <br>
 
-                <label class="sbs">Special Accomodations/Comments</label>
-                <textarea class="sbs" placeholder="Special Accomodations/Comments"></textarea>
+                <label for="subject">Special Accommodations/Comments</label>
+                <textarea id="subject" name="subject" placeholder="Special Accommodations/Comments" style="height:200px"></textarea>
+                
+                <input type="submit" value="Submit My Registration" class="submitBtn">
+                
             </fieldset>
-            <input type="submit" value="Submit My Registration" class="submitBtn">
+            
+            
         </form>
 
     </main>
