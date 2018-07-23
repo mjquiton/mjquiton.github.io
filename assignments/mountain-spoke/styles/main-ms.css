@@ -165,12 +165,11 @@ a {
 
 .tourCaption,
 .tablehead,
-.mainCaption,
 #entrance {
     font-size: 1.5rem;
 }
 
-.tourDescription, #entranceDesc, .mountain {
+.tourDescription, #entranceDesc, .mountain, .subCaption {
     font-size: 1.2rem;
 }
 
@@ -230,7 +229,7 @@ a {
     display: table;
 }
 
-.serviceSubHead, .thankYou {
+.serviceSubHead, .thankYou, .mainCaption {
     font-size: 1.7rem;
 }
 
@@ -292,84 +291,27 @@ a {
     font-size: 1.3rem;
 }
 
-/*------FORM-----*/
+/*------SALE-----*/
 
-/*.formSection {
-    font-family: 'Quicksand', sans-serif;
-}
-
-form fieldset {
-    margin: auto;
-    border: 1px solid #123F65;
-    border-radius: 10px;
-    padding: .5rem 2%;
-    width: 50%;
-    box-shadow: 4px 5px 4px #123F65;
-    margin-bottom: 2rem;
-
-}
-
-form legend {
-    color: #123F65;
-    margin: 0 1rem;
-    padding: 0 .5rem;
-    font-size: 2rem;
-}
-
-form label.top,
-form div {
-    display: block;
-    padding-top: 1rem;
-    color: #123F65;
-    font-size: 1.4rem;
-    border-radius: 1rem;
-}
-
-form label.top input,
-form label.top select {
-    display: block;
-    font-size: 1rem;
-    border: solid 1px #999;
-    border-radius: 4px;
-    padding: .75rem;
-    color: #555;
+.saleClickImg {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 2rem;
+    padding: 3rem;
+    justify-content: center;
     width: 100%;
-    max-width: 20rem;
-    background-color: rgba(0, 0, 0, .1);
+}
+.saleClickImg {
+    margin-left: 2rem;
 }
 
-form label.sbs {
-    display: block;
-    padding: .75rem;
+ul {
+    list-style: none;
+    padding: 1.2rem;
 }
 
-form input.submitBtn {
-    border: none;
-    background-color: #333;
-    color: white;
-    border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
-    width: 96%;
-    max-width: 20rem;
-}
-
-form label.top input:required {
-    border-left: #3176B2 solid 6px;
-}
-
-form label.top input:required:valid {
-    border-left: #123F65 solid 6px;
-}
-
-textarea {
+.clickImg {
     width: 100%;
-    height: 100%;
-    border-radius: .5rem;
-}
-
-.contentAlign {
-    border-radius: 4rem;*/
 }
 
 /*------CONTACT PAGE------*/
