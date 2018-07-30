@@ -140,7 +140,7 @@ li a:hover:not(.active) {
 }
 
 .clickImg {
-    width: 75%;
+    width: 50%;
 }
 
 a {
@@ -311,7 +311,7 @@ ul {
 }
 
 .clickImg {
-    width: 100%;
+    width: 75%;
 }
 
 /*------CONTACT PAGE------*/
