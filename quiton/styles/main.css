@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+
+}
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+/*------NAV------*/
+
+nav {
+    clear: both;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #111;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #123F65;
+}
+
+nav li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #5FB4FE;
+    color: black;
+}
+
+.active {
+    background-color: #3176B2;
+}
+
+@media only screen and (max-width: 600px) {
+    nav ul.hide {
+        display: none;
+    }
+}
+
+
+
+/*------BODY------*/
+
+/*-----HEADER------*/
+
+#mainTitle {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: dimgrey;
+    text-align: center;
+}
+
+/*------BOTTOM NAV------*/
+
+/* Place the navbar at the bottom of the page, and make it stick */
+
+.navbar {
+    background-color: #123F65;
+    overflow: hidden;
+    /*position: fixed;*/
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+
+.navbar a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'EB Garamond', serif;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+
+.navbar a:hover {
+    background-color: #5FB4FE;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+
+.navbar a.active {
+    background-color: #3176B2;
+    color: white;
+}

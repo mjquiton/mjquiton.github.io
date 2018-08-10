@@ -1,0 +1,17 @@
+@media only screen and (min-width: 600px) {
+
+    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
+    
+    
+    /*----NANIGATION----*/
+    
+    nav button { display:none; 
+    }  /* hamburger button does not need to be shown in the medium on up views */
+    nav ul {
+        flex-direction: row;
+    }
+    
+    .footer-bar, .contact, .resources, .copyright {
+        padding: 1.2rem;
+    }
+}
